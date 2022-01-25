@@ -1,0 +1,59 @@
+footer{
+  letter-spacing: .08rem;
+}
+
+/* .container p {
+  font-size: 1.15rem;
+  line-height: 2.9rem
+} */
+.container--parag {
+  max-width: 478px;
+  margin: auto
+}
+.container--contact {
+  max-width: 300px;
+  margin: auto
+}
+.container--left {
+  -ms-flex-pack: start;
+  justify-content: flex-start
+}
+.container--marbot30 {
+  margin-bottom: 30px
+}
+.container--marginbot40 {
+  margin-bottom: 40px
+}
+.container--marbot10 {
+  margin-bottom: 10px
+}
+.container--marbot20 {
+  margin-bottom: 20px
+}
+.container--marbot60 {
+  margin-bottom: 60px
+}
+.container--marbot80 {
+  margin-bottom: 80px
+}
+.container--martop20 {
+  margin-top: 20px
+}
+.container--martop30 {
+  margin-top: 30px
+}
+.container--martop40 {
+  margin-top: 40px
+}
+.container--martop50 {
+  margin-top: 50px
+}
+.container--martop70 {
+  margin-top: 70px
+}
+.container--pad10 {
+  padding: 10px 0
+}
+#email {
+  margin-bottom: 0
+}

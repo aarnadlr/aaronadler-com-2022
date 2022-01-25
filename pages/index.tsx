@@ -2,64 +2,86 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import styles from '@/pages/index.module.css'
+import TopNav from '../Components/TopNav';
+import WelcomeBio from '../Components/WelcomeBio';
+import Cards from '../Components/Cards';
+import CoreTools from '../Components/CoreTools';
+import Footer from '../Components/Footer';
+// import MediumCard from '../Components/MediumCard';
+import HackerrankScore from '../Components/hackerrank-score';
+// import Link from 'next/link';
+// import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+export default function Index() {
 
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+  
+    return (
+      <div>
+        {
+          console.log('updated 1/19/21-2')
+        }
+        <Head>
+          <title>Aaron Adler | UX Engineer</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Teko:300"
+            rel="stylesheet"
+          />
+        </Head>
+        {/* <RSSRequestHOC/> */}
 
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <TopNav />
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <WelcomeBio />
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
+        <div className="algos">
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.codewars.com/users/aarnadlr"
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <img
+              src="https://www.codewars.com/users/aarnadlr/badges/large"
+              alt=""
+            />
           </a>
 
-          <a href="https://vercel.com/new" className={styles.card}>
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <HackerrankScore />
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
-    </div>
-  )
+        <Cards />
+
+        {/* <MediumCard/> */}
+
+        <CoreTools />
+
+        <Footer />
+
+        <style jsx>
+          {`
+            .algos {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
+
+            .algos a {
+              transition: all 0.3s ease;
+              margin: 0 0 40px 0;
+            }
+            .algos a:hover {
+              transform: translateY(-3px);
+            }
+
+            .algos a img {
+              cursor: pointer;
+              display: block;
+            }
+          `}
+        </style>
+      </div>
+    );
 }

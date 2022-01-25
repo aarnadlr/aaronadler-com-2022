@@ -1,0 +1,12 @@
+*{
+  text-decoration: none;
+}
+body{
+  /* background: navy; */
+  font-family: "Poppins";
+  /*background: rgb(0, 0, 71);*/
+}
+
+a, a:link, a:visited{
+  color: initial;
+}

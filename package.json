@@ -9,9 +9,20 @@
     "test:ci": "jest --ci"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "bodymovin": "4.13.0",
+    "isomorphic-unfetch": "3.1.0",
+    "lottie-react-web": "2.2.2",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-lottie": "1.2.3",
+    "react-scrollchor": "7.0.1",
+    "sass": "1.49.0",
+    "styled-components": "5.3.3",
+    "styled-jsx-plugin-sass": "1.0.0",
+    "use-dark-mode": "2.3.1",
+    "uuid": "8.3.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.16.1",
