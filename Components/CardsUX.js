@@ -1,10 +1,10 @@
 import React from 'react';
 // import Tilt from "react-tilt";
-import projects from '../src/projectsUX';
+import projects from '../projectsUX';
 import CodeWindow from './CodeWindow.js/CodeWindow';
 // import './Cards.css';
 // import '../../src/css/entry.css';
-const uuidv1 = require('uuid/v1');
+import { v1 as uuidv1 } from 'uuid';
 
 const CardsUX = () => {
     return (

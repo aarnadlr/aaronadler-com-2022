@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 
-import styles from '@/pages/index.module.css'
+// import styles from '@/pages/index.module.css'
 import TopNav from '../Components/TopNav';
 import WelcomeBio from '../Components/WelcomeBio';
 import Cards from '../Components/Cards';
