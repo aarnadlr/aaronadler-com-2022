@@ -18,7 +18,7 @@ export default function Index() {
     return (
       <div>
         {
-          console.log('updated 1/19/21-2')
+          console.log('updated 1/25/22')
         }
         <Head>
           <title>Aaron Adler | UX Engineer</title>

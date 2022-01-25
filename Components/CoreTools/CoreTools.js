@@ -88,7 +88,7 @@ const CoreTools = () => (
           <li className="skill">
             <span className="fa-stack">
               {/* <i className="fa fa-code rainbow9" /> */}
-              🔥
+              {/* 🔥 */}
             </span>
             Firebase
           </li>
