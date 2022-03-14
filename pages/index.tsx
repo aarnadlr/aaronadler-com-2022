@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 // import Image from 'next/image'
 
 // import styles from '@/pages/index.module.css'
@@ -7,19 +7,16 @@ import WelcomeBio from '../Components/WelcomeBio';
 import Cards from '../Components/Cards';
 import CoreTools from '../Components/CoreTools';
 import Footer from '../Components/Footer';
-// import MediumCard from '../Components/MediumCard';
 import HackerrankScore from '../Components/hackerrank-score';
-// import Link from 'next/link';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 
 export default function Index() {
-
   
-    return (
+
+  return (
+    
       <div>
-        {
-          console.log('updated 1/25/22')
-        }
+        {/* {console.log('updated 1/25/22')} */}
         <Head>
           <title>Aaron Adler | Frontend Engineer</title>
         </Head>
@@ -75,5 +72,5 @@ export default function Index() {
           `}
         </style>
       </div>
-    );
+  );
 }
