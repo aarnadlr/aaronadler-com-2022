@@ -1,3 +1,4 @@
+import React from "react";
 import Head from 'next/head';
 // import Image from 'next/image'
 
@@ -9,9 +10,14 @@ import CoreTools from '../Components/CoreTools';
 import Footer from '../Components/Footer';
 import HackerrankScore from '../Components/hackerrank-score';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
+import { DarkModeToggle } from "react-dark-mode-toggle-2";
+import useDarkMode from 'use-dark-mode';
 
 export default function Index() {
-  
+  const darkMode = useDarkMode(false);
+
+  const [isDarkMode, setIsDarkMode] = React.useState(false);
+
 
   return (
     
@@ -20,7 +26,23 @@ export default function Index() {
         <Head>
           <title>Aaron Adler | Frontend Engineer</title>
         </Head>
-        {/* <RSSRequestHOC/> */}
+      {/* <RSSRequestHOC/> */}
+      
+      {/* <DarkModeToggle 
+      onChange={setIsDarkMode} //func
+      isDarkMode={isDarkMode} 
+      size={85} 
+      /> */}
+      
+      <div>
+      <button type="button" onClick={darkMode.disable}>
+        ☀
+      </button>
+      {/* <Toggle checked={darkMode.value} onChange={darkMode.toggle} /> */}
+      <button type="button" onClick={darkMode.enable}>
+        ☾
+      </button>
+    </div>
 
         <TopNav />
 

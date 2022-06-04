@@ -1,7 +1,7 @@
 @import "css/typography.css";
 
 @import "css/global";
-@import "css/variables";
+/* @import "css/variables"; */
 
 /* @import 'ibm-colors.css'; */
 /* @import "mrmrs-colors.css"; */
@@ -13,7 +13,7 @@
 /* MAIN STYLE RULES GO HERE */
 @import "css/app";
 
-@import "css/media-queries";
+/* @import "css/media-queries"; */
 
 
 /* // $color: #2ecc71;
@@ -71,8 +71,6 @@ a.hoverLink:visited {
 body.dark-mode {
   background-color: #00124a;
   color: #dfdfdf;
-
-  
 }
 
 body.dark-mode .github,
@@ -104,12 +102,6 @@ body.dark-mode .dark-mode-toggle > button:last-child {
   color: lightblue;
 }
 
-
-
-
-
-
-
 body.dark-mode .hr-badge {
   background: rgba(255, 255, 255, 0.2);
 }
@@ -119,19 +111,6 @@ body.dark-mode .tag {
 body.dark-mode .paragraph .highlight {
   background: #0044ff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .dark-mode-toggle {
