@@ -3,7 +3,7 @@ const CoreTools = () => (
     <div className="justify-center coreskills-box ">
       <div className="coreskills-box__core-col">
         <h1 className="">Core Tools</h1>
-        <p>Software and libraries I often work with in projects.</p>
+        {/* <p>Software and libraries I often work with in projects.</p> */}
         <ul>
           <li className="skill">
             <span className="fa-stack">
@@ -87,10 +87,9 @@ const CoreTools = () => (
 
           <li className="skill">
             <span className="fa-stack">
-              {/* <i className="fa fa-code rainbow9" /> */}
-              {/* 🔥 */}
-            </span>
-            Firebase
+              <i className="fa fa-laptop-code rainbow13" />
+            </span>{' '}
+            Git/GitHub
           </li>
 
           <li className="skill">
@@ -121,19 +120,14 @@ const CoreTools = () => (
           {/*  &nbsp;Styled-Components*/}
           {/*</li>*/}
 
-          <li className="skill">
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-language rainbow9" />
             </span>{' '}
             Babel
-          </li>
+          </li> */}
 
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-th-large rainbow9" />
-            </span>{' '}
-            Bootstrap 4
-          </li>
+
 
           {/* <li className="skill">
             <span className="fa-stack">
@@ -141,31 +135,25 @@ const CoreTools = () => (
             </span>{" "}
             Babel</li> */}
 
-          <li className="skill">
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-bolt rainbow10" />
             </span>{' '}
             Tachyons
-          </li>
+          </li> */}
+
 
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-magic rainbow11" />
-            </span>{' '}
-            jQuery
-          </li>
-
-          {/* <li className="skill">
-            <span className="fa-stack">
               <i className="fa fa-laptop rainbow16" />
             </span>{" "}
-            IBM Color Library</li> */}
+            Tailwind CSS</li>
 
-          {/* <li className="skill">
+          <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-adjust rainbow17" />
             </span>{" "}
-            Palx</li> */}
+            Styled-components</li>
 
           <li className="skill">
             <span className="fa-stack">
@@ -179,7 +167,7 @@ const CoreTools = () => (
               {/* <i className="fab fa-gulp rainbow14" /> */}
               <i className="fas fa-wine-bottle rainbow12" />
             </span>{' '}
-            Gulp
+            GraphQL
           </li>
 
           {/* <li className="skill">
@@ -195,19 +183,14 @@ const CoreTools = () => (
             SVG
           </li>
 
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-laptop-code rainbow13" />
-            </span>{' '}
-            Git/GitHub
-          </li>
+  
 
-          <li className="skill">
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fab fa-facebook-square rainbow14" />
             </span>{' '}
             Facebook AR Studio
-          </li>
+          </li> */}
 
           {/*
           <li className="skill">
@@ -223,16 +206,28 @@ const CoreTools = () => (
 
       <div className="coreskills-box__core-col blue0">
         <h1 className="">Secondary Tools</h1>
-        <p>Software and libraries I also work with.</p>
+        {/* <p>Software and libraries I also work with.</p> */}
         <ul>
 
 
-          <li className="skill">
+<li className="skill">
+            <span className="fa-stack">
+              {/* <i className="fa fa-code rainbow9" /> */}
+              {/* 🔥 */}
+            </span>
+            Firebase
+          </li>
+
+         
+
+
+
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fas fa-database rainbow9" />
             </span>{' '}
-            GraphQL Apollo Client / Server
-          </li>
+            GraphQL
+          </li> */}
 
           <li className="skill">
             <span className="fa-stack">
@@ -290,6 +285,21 @@ const CoreTools = () => (
             </span>{' '}
             Blender3D
           </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-th-large rainbow9" />
+            </span>{' '}
+            Bootstrap 4
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-magic rainbow11" />
+            </span>{' '}
+            jQuery
+          </li>
+          
         </ul>
       </div>
     </div>

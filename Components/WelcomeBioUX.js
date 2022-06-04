@@ -98,7 +98,7 @@ const WelcomeBioUX = () => (
         {/*<span className="highlight">&nbsp;Front-end Developer&nbsp;</span>*/}
         {/*&nbsp;and*/}
         <span className="highlight">&nbsp;UX Designer&nbsp;</span>
-        &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, IBM, AppNexus,
+        &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, LinkedIn, IBM, Xandr,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
         Art Directors Club, and the New York Times.
 
@@ -132,7 +132,7 @@ const WelcomeBioUX = () => (
     <style jsx>
       {`
         #topSection{
-          max-width: 556px;
+          max-width: 560px;
         }
         .icon {
           width: 20px;

@@ -1,16 +1,16 @@
 const projects = [
   {
-    key: 1,
-    image: '../static/thumbs800x400/supercard-dev2.jpg',
-    title: 'Supercard',
+    key: 9387,
+    image: '../static/thumbs800x400/eileen-fisher800x400.jpg',
+    title: 'Eileen Fisher',
 
     desc:
-      'TypeScript / React web development, and UX design for Supercard, digital birthday greetings app. Click to view the project.',
+      'JavaScript web development and GSAP animation within a Salesforce environment.',
 
-    role2: 'UX Design: Mobile wireframes and design with Figma',
-    role1: 'Front-end: TypeScript / React / Styled-components development',
+    role1: '38 scroll-triggered animations built with Greensock/GSAP',
+    role2: 'Vanilla javaScript and SCSS codebase',
 
-    role3: 'Backend: Vercel serverless functions connected to MongoDB',
+    role3: 'Salesforce CommerceCloud development environment',
 
     // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
 
@@ -19,13 +19,14 @@ const projects = [
     tag1: 'HTML5',
     tag2: 'SCSS',
     tag3: 'JavaScript',
-    tag4: 'TypeScript',
-    tag5: 'React',
+    tag4: 'Animation',
+    tag5: 'GSAP',
 
-    year: 2020,
+    year: 2022,
     // HREF LINK
-    link: 'https://supercardco.com',
+    link: 'https://www.eileenfisher.com/',
   },
+  
   {
     key: 1,
     image: '../static/thumbs800x400/IBM_800x400.jpg',
@@ -57,16 +58,16 @@ const projects = [
 
   {
     key: 31,
-    image: '../static/thumbs800x400/appnexus-thumb.jpg',
-    title: 'AppNexus',
+    image: '../static/thumbs800x400/xandr800x400.jpg',
+    title: 'Xandr',
     desc:
-      "ReactJS web development, Storybook component creation, and unit testing for AppNexus' global advertising platform.",
+      "ReactJS web development, Storybook component creation, and unit testing for the global advertising platform.",
 
     role1:
-      'Evolved/refactored ANX_React, their proprietary react component design system',
+      'Refactored ANX React, their react component library',
     role2: 'Unit testing with Jest / Mocha / Chai',
     role3: 'Fixed UI and application logic bugs',
-    role4: 'Data fetching from REST and GraphQL APIs',
+    role4: 'Data fetching with REST and GraphQL APIs',
     // TAGS:
     //  tag1: 'sketch',
     tag1: 'JavaScript',
@@ -107,6 +108,34 @@ const projects = [
     // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
     link: 'https://ericelliottjs.com',
     dim: false,
+  },
+
+  {
+    key: 1,
+    image: '../static/thumbs800x400/supercard-dev2.jpg',
+    title: 'Supercard',
+
+    desc:
+      'TypeScript / React web development, and UX design for Supercard, digital birthday greetings app. Click to view the project.',
+
+    role2: 'UX Design: Mobile wireframes and design with Figma',
+    role1: 'Front-end: TypeScript / React / Styled-components development',
+
+    role3: 'Backend: Vercel serverless functions connected to MongoDB',
+
+    // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+
+    // techstack: ""
+    // TAGS:
+    tag1: 'HTML5',
+    tag2: 'SCSS',
+    tag3: 'JavaScript',
+    tag4: 'TypeScript',
+    tag5: 'React',
+
+    year: 2020,
+    // HREF LINK
+    link: 'https://supercardco.com',
   },
 
   // {
@@ -150,7 +179,7 @@ const projects = [
 
     year: 2017,
     // HREF LINK
-    link: 'https://codepen.io/aaronadler/pen/vWoVoN',
+    link: 'https://patagonia-provisions.vercel.app',
   },
 
   {
@@ -234,31 +263,31 @@ const projects = [
     link: 'https://ibmpartners.now.sh/',
   },
 
-  {
-    key: 333,
-    image: '../static/discovery_thumb_black2.jpg',
-    title: 'Discovery Channel - Multistep React Form',
-    desc:
-      'React component for a multistep subscriber form. Click to view (resize window to view 3 breakpoint layouts).',
+  // {
+  //   key: 333,
+  //   image: '../static/discovery_thumb_black2.jpg',
+  //   title: 'Discovery Channel - Multistep React Form',
+  //   desc:
+  //     'React component for a multistep subscriber form. Click to view (resize window to view 3 breakpoint layouts).',
 
-    role1:
-      'Built the UI component using React, Sass, CSS grid, Tachyons and Formik.',
-    role2:
-      'Three media queries provide styling for the component across browser widths.',
-    role3: 'Implemented form validation and required field errors.',
-    role4:
-      'User form data saved to component state and logged to the console (view console in browser)',
+  //   role1:
+  //     'Built the UI component using React, Sass, CSS grid, Tachyons and Formik.',
+  //   role2:
+  //     'Three media queries provide styling for the component across browser widths.',
+  //   role3: 'Implemented form validation and required field errors.',
+  //   role4:
+  //     'User form data saved to component state and logged to the console (view console in browser)',
 
-    // TAGS:
-    //  tag1: 'sketch',
-    tag1: 'React',
-    tag2: 'CSS Grid',
-    tag3: 'JavaScript',
-    tag4: 'Formik',
+  //   // TAGS:
+  //   //  tag1: 'sketch',
+  //   tag1: 'React',
+  //   tag2: 'CSS Grid',
+  //   tag3: 'JavaScript',
+  //   tag4: 'Formik',
 
-    year: 2019,
-    link: 'https://discovery-ui.now.sh/',
-  },
+  //   year: 2019,
+  //   link: 'https://discovery-ui.now.sh/',
+  // },
 
   // {
   //   key: 3,

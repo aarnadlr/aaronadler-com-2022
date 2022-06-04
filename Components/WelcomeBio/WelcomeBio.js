@@ -106,7 +106,7 @@ const WelcomeBio = () => (
         <span className="highlight">&nbsp;Front-end Software Developer&nbsp;</span>
         {/*&nbsp;and&nbsp;*/}
         {/*<span className="highlight">&nbsp;UX Engineer&nbsp;</span>*/}
-        &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, IBM, AppNexus,
+        &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, LinkedIn, IBM, Xandr,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
         Art Directors Club, and the New York Times. &nbsp;My focus is on
         {' '}
@@ -137,7 +137,7 @@ const WelcomeBio = () => (
     <style jsx>
       {`
         #topSection{
-          max-width: 554px;
+          max-width: 556px;
         }
         .icon {
           width: 20px;
