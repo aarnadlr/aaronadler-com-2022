@@ -1,25 +1,25 @@
 import React from 'react';
 // import LottieControl from '../LottieControl'
 import Lottie from 'lottie-react-web';
-import ibm from './data-circle-diamond';
 
-export default function CodeWindow() {
+
+export default function CodeWindow({name, bcgColor, animData, speed}) {
   return (
     <div className='codeRect'>
       {/* <LottieControl/> */}
 
       <Lottie
         options={{
-          animationData: ibm,
+          animationData: animData,
           // loop: false,
         }}
-        speed={0.6}
+        speed={speed}
       />
 
       <style jsx>{`
         .codeRect {
-          height: 207px;
-          background: blue;
+          height: 215px;
+          background: ${bcgColor};
         }
       `}</style>
     </div>

@@ -1,3 +1,6 @@
+import ibm from './Components/CodeWindow/data-circle-diamond.json';
+import patagonia from './Components/CodeWindow/patagonia.json';
+
 const projects = [
   {
     key: 9387,
@@ -54,6 +57,7 @@ const projects = [
     // HREF LINK
     // link: "./ibm.html"
     link: 'https://www.ibm.com/partners/start/',
+
   },
 
   {
@@ -161,7 +165,7 @@ const projects = [
 
   {
     key: 6,
-    image: '../static/thumbs800x400/patagonia-ww3.gif',
+    // image: '../static/thumbs800x400/patagonia-ww3.gif',
     title: 'Patagonia',
     desc:
       "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
@@ -180,6 +184,9 @@ const projects = [
     year: 2017,
     // HREF LINK
     link: 'https://patagonia-provisions.vercel.app',
+    animData: patagonia,
+    bcgColor: '#e7e2e1',
+    speed: 1,
   },
 
   {
@@ -261,6 +268,9 @@ const projects = [
     // link: "./ibm.html"
     // link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
     link: 'https://ibmpartners.now.sh/',
+    animData: ibm,
+    bcgColor: 'blue',
+    speed: .6,
   },
 
   // {

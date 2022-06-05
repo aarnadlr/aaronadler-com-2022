@@ -1,7 +1,7 @@
 import React from 'react';
 // import Tilt from "react-tilt";
 import projects from '../../projects';
-import CodeWindow from '../CodeWindow.js/CodeWindow';
+import CodeWindow from '../CodeWindow/CodeWindow';
 // import './Cards.css';
 // import '../../src/css/entry.css';
 import { v1 as uuidv1 } from 'uuid';
@@ -10,7 +10,8 @@ import { v1 as uuidv1 } from 'uuid';
 const Cards = () => {
   return (
     <div className="card-container justify-center">
-      {projects.map(project => {
+      {/* Map over the projects array to render Cards */}
+      {projects.map((project) => {
         return (
           <div className="card br2" key={uuidv1()}>
             <a target="_blank" rel="noopener noreferrer" href={project.link}>
@@ -22,10 +23,17 @@ const Cards = () => {
                   }}
                   src={project.image}
                   alt="alt"
-                  className={project.gif ? 'gifStyle' : 'image'}
+                  className={'image'}
                 />
+
               ) : (
-                <CodeWindow />
+
+                <CodeWindow
+                  name={''}
+                  bcgColor={project.bcgColor}
+                  animData={project.animData}
+                  speed={project.speed}
+                />
               )}
 
               <div className="textContainer pa4b lh-copy3">
@@ -104,7 +112,6 @@ const Cards = () => {
           width: 430px;
           transition: all 0.3s ease;
           margin: 0.5rem;
-
         }
         .card:hover {
           transform: translateY(-10px);

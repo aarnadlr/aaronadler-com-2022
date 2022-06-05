@@ -1,7 +1,7 @@
 import React from 'react';
 // import Tilt from "react-tilt";
 import projects from '../projectsUX';
-import CodeWindow from './CodeWindow.js/CodeWindow';
+import CodeWindow from './CodeWindow/CodeWindow';
 // import './Cards.css';
 // import '../../src/css/entry.css';
 import { v1 as uuidv1 } from 'uuid';
