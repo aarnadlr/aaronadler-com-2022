@@ -23,7 +23,8 @@
 
 body {
   /* //background-color: #ebf2f5; */
-  background-color: #e2edf1;
+  /* background-color: #e2edf1; */
+  background-color: #fff;
   color: #011b69;
   transition: background-color 0.3s ease;
 

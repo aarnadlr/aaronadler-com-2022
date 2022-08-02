@@ -118,9 +118,13 @@ const CardsUX = () => {
                     width: 430px;
                     transition: all 0.3s ease;
                     margin: 0.5rem;
-                    box-shadow: 0px 0px 24px 0px rgba(0,23,41,0.15);
-
+                    //box-shadow: 0px 0px 0px 1px rgba(0,23,41,0.2);
+                    border: 1px solid rgba(0,23,41,0.2);
                     background-color: white;
+                    border-radius:4px;
+                }
+                .textContainer{
+                    border-radius:4px;
                 }
                 .card:hover {
                         transform: translateY(-10px);

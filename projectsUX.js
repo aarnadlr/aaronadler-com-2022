@@ -1,8 +1,35 @@
+import ibm from './Components/CodeWindow/data-circle-diamond.json';
+
 const projectsUX = [
+
+    // LINKEDIN
+    {
+        key: 938262,
+        image: '../static/thumbs800x400/linkedin-thumb-2.jpg',
+        title: 'LinkedIn',
+
+        desc:
+            'Design and prototype development of new features for LinkedIn creators, page admins, and power users. Created an interactive JavaScript prototype which demos the Interactive Stickers feature.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag4: 'Prototype',
+        tag2: 'UX',
+        tag3: 'JavaScript',
+        // tag5: 'Desktop',
+        year: 2022,
+        link:
+            'https://www.figma.com/file/cOSAtp1cuTasFYOOxcBezO/Wells-Fargo-UX-Design-System?node-id=0%3A1',
+        dim: false,
+    },
+
+
     // IBM PARTNERS FIGMA
     {
         key: 12839,
-        image: '../static/ux/IBMP_THUMB2-.jpg',
+        image: '../static/ux/IBM-THUMB-3.jpg',
         title: 'IBM Partners',
     
         desc:
@@ -22,32 +49,15 @@ const projectsUX = [
         year: 2018,
         // HREF LINK
         // link: "./ibm.html"
-        link: 'https://www.figma.com/file/BRKj04qEZVjVrpRn1vvknn/IBM-Partners-UX-Homepage?node-id=0%3A1',
+        // link: 'https://www.figma.com/file/BRKj04qEZVjVrpRn1vvknn/IBM-Partners-UX-Homepage?node-id=0%3A1',
+        link: 'https://www.ibm.com/partners/start/',
       },
       
 
-    // EY FILE IMPORT WIZARD
-    {
-        key: 8,
-        image: '../static/ux/thumb_EY.jpg',
-        title: 'Ernst & Young',
+    
 
-        desc:
-            'UX desktop app design for a SaaS File Import Wizard user flow. Click to view the project in Figma.',
+      
 
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
-
-        tag1: 'Figma',
-        tag2: 'UX',
-        tag3: 'Dashboard',
-        tag4: 'SaaS',
-        // tag5: 'Desktop',
-        year: 2020,
-        link:
-            'https://www.figma.com/file/v4qpALSo4380PTEbTPV0TE/Ernst-and-Young-IRIS-File-Upload-UX?node-id=0%3A1',
-        dim: false,
-    },
 
       // WELLS FARGO
       {
@@ -69,6 +79,29 @@ const projectsUX = [
         year: 2018,
         link:
             'https://www.figma.com/file/cOSAtp1cuTasFYOOxcBezO/Wells-Fargo-UX-Design-System?node-id=0%3A1',
+        dim: false,
+    },
+
+    // EY FILE IMPORT WIZARD
+    {
+        key: 8,
+        image: '../static/ux/thumb_EY.jpg',
+        title: 'Ernst & Young',
+
+        desc:
+            'UX desktop app design for a SaaS File Import Wizard user flow. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Dashboard',
+        tag4: 'SaaS',
+        // tag5: 'Desktop',
+        year: 2020,
+        link:
+            'https://www.figma.com/file/v4qpALSo4380PTEbTPV0TE/Ernst-and-Young-IRIS-File-Upload-UX?node-id=0%3A1',
         dim: false,
     },
 
@@ -111,8 +144,8 @@ const projectsUX = [
         tag3: 'Mobile',
         tag4: 'Web App',
         year: 2020,
-        link:
-            'https://www.figma.com/file/TMftwd6BI0Pgawhzs2xH9h/Supercard-Mobile-UX-R2?node-id=0%3A1',
+        // link: 'https://www.figma.com/file/TMftwd6BI0Pgawhzs2xH9h/Supercard-Mobile-UX-R2?node-id=0%3A1',
+        link: 'https://supercardco.com/',
         dim: false,
     },
 
@@ -140,6 +173,9 @@ const projectsUX = [
         // link: "./ibm.html"
         // link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
         link: 'https://ibmpartners.now.sh/',
+        animData: ibm,
+        bcgColor: 'blue',
+        speed: .6,
     },
 
     {
@@ -190,49 +226,49 @@ const projectsUX = [
 
    
     // INTELLIGENT CROSS
-    {
-        key: 8,
-        image: '../static/ux/thumb_ic2.jpg',
-        title: 'Intelligent Cross',
+    // {
+    //     key: 8,
+    //     image: '../static/ux/thumb_ic2.jpg',
+    //     title: 'Intelligent Cross',
 
-        desc:
-            'UX mobile app and desktop design for Intelligent Cross, financial trading firm. Click to view the project in Figma.',
+    //     desc:
+    //         'UX mobile app and desktop design for Intelligent Cross, financial trading firm. Click to view the project in Figma.',
 
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
+    //     // role1: 'UX wireframes and design with Sketch',
+    //     // role2: 'Front-end JavaScript code',
 
-        tag1: 'Figma',
-        tag2: 'UX',
-        tag3: 'Mobile',
-        tag4: 'Web App',
-        year: 2019,
-        link:
-            'https://www.figma.com/file/rxa82uFNL9Y1CjYvWO7KZ0/Intelligent-Cross-Mobile-and-Desktop-UX-R6?node-id=0%3A1',
-        dim: false,
-    },
+    //     tag1: 'Figma',
+    //     tag2: 'UX',
+    //     tag3: 'Mobile',
+    //     tag4: 'Web App',
+    //     year: 2019,
+    //     link:
+    //         'https://www.figma.com/file/rxa82uFNL9Y1CjYvWO7KZ0/Intelligent-Cross-Mobile-and-Desktop-UX-R6?node-id=0%3A1',
+    //     dim: false,
+    // },
 
   
 
-    {
-        key: 1,
-        image: '../static/ux/openig3.jpg',
-        title: 'Open Igloo',
+    // {
+    //     key: 1,
+    //     image: '../static/ux/openig3.jpg',
+    //     title: 'Open Igloo',
 
-        desc:
-            'Brand identity for Open Igloo, real estate ratings platform. Click to view the project in Figma.',
+    //     desc:
+    //         'Brand identity for Open Igloo, real estate ratings platform. Click to view the project in Figma.',
 
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
+    //     // role1: 'UX wireframes and design with Sketch',
+    //     // role2: 'Front-end JavaScript code',
 
-        tag1: 'Figma',
-        tag2: 'Adobe CC',
-        tag3: 'Brand Identity',
-        tag4: 'Mobile',
-        year: 2019,
-        link:
-            'https://www.figma.com/file/uDF1d9dcHOXSsC6eBt6OOV/Open-Igloo-Brand-Identity-System-PRES?node-id=1%3A444',
-        dim: true,
-    },
+    //     tag1: 'Figma',
+    //     tag2: 'Adobe CC',
+    //     tag3: 'Brand Identity',
+    //     tag4: 'Mobile',
+    //     year: 2019,
+    //     link:
+    //         'https://www.figma.com/file/uDF1d9dcHOXSsC6eBt6OOV/Open-Igloo-Brand-Identity-System-PRES?node-id=1%3A444',
+    //     dim: true,
+    // },
 
     {
         key: 2,
