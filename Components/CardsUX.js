@@ -35,7 +35,12 @@ const CardsUX = () => {
                                     }
                                 />
                             ) : (
-                                <CodeWindow />
+                                <CodeWindow
+                                name={''}
+                                bcgColor={project.bcgColor}
+                                animData={project.animData}
+                                speed={project.speed}
+                              />
                             )}
 
                             <div className="textContainer pa4b lh-copy3">

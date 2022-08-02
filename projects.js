@@ -28,35 +28,7 @@ const projects = [
       dim: false,
   },
 
-  {
-    key: 1,
-    image: '../static/ux/IBM-THUMB-3.jpg',
-    title: 'IBM',
-
-    desc:
-      "JavaScript web development and UX design for IBM Partners, IBM's business services portal. Click to view the site.",
-
-    role1: 'UX Design: Mobile and desktop wireframes and design with Sketch',
-    role2: 'Front-end: JavaScript development',
-
-    role3:
-      'Transitioned UX from IBM’s Northstar design system to its new Duo design system. New typestyles, color palettes, column grid',
-
-    // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
-
-    // techstack: ""
-    // TAGS:
-    tag1: 'HTML5',
-    tag2: 'CSS3',
-    tag3: 'JavaScript',
-    tag4: 'Sketch',
-
-    year: 2018,
-    // HREF LINK
-    // link: "./ibm.html"
-    link: 'https://www.ibm.com/partners/start/',
-
-  },
+ 
 
 
   {
@@ -85,6 +57,36 @@ const projects = [
     year: 2022,
     // HREF LINK
     link: 'https://www.eileenfisher.com/',
+  },
+
+  {
+    key: 1,
+    image: '../static/ux/IBM-THUMB-3.jpg',
+    title: 'IBM',
+
+    desc:
+      "JavaScript web development and UX design for IBM Partners, IBM's business services portal. Click to view the site.",
+
+    role1: 'UX Design: Mobile and desktop wireframes and design with Sketch',
+    role2: 'Front-end: JavaScript development',
+
+    role3:
+      'Transitioned UX from IBM’s Northstar design system to its new Duo design system. New typestyles, color palettes, column grid',
+
+    // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+
+    // techstack: ""
+    // TAGS:
+    tag1: 'HTML5',
+    tag2: 'CSS3',
+    tag3: 'JavaScript',
+    tag4: 'Sketch',
+
+    year: 2018,
+    // HREF LINK
+    // link: "./ibm.html"
+    link: 'https://www.ibm.com/partners/start/',
+
   },
   
   

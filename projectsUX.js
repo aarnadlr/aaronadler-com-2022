@@ -1,4 +1,5 @@
 import ibm from './Components/CodeWindow/data-circle-diamond.json';
+import patagonia from './Components/CodeWindow/patagonia.json';
 
 const projectsUX = [
 
@@ -269,30 +270,30 @@ const projectsUX = [
     //     dim: true,
     // },
 
-    {
-        key: 2,
-        image: '../static/ux/artemis3.jpg',
-        title: 'Artemis Capital Advisors',
+    // {
+    //     key: 2,
+    //     image: '../static/ux/artemis3.jpg',
+    //     title: 'Artemis Capital Advisors',
 
-        desc:
-            'Brand identity for Artemis Capital Advisors, financial services firm in New York City. Click to view the project in Figma.',
+    //     desc:
+    //         'Brand identity for Artemis Capital Advisors, financial services firm in New York City. Click to view the project in Figma.',
 
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
+    //     // role1: 'UX wireframes and design with Sketch',
+    //     // role2: 'Front-end JavaScript code',
 
-        tag1: 'Figma',
-        tag2: 'Adobe CC',
-        tag3: 'Brand Identity',
-        tag4: 'Mobile',
-        year: 2019,
-        link:
-            'https://www.figma.com/file/YPPrRugeYV4YDmGjQGA8e7/Artemis-Capital-Advisors-Brand-Identity-System-PRES?node-id=1%3A3',
-        dim: true,
-    },
+    //     tag1: 'Figma',
+    //     tag2: 'Adobe CC',
+    //     tag3: 'Brand Identity',
+    //     tag4: 'Mobile',
+    //     year: 2019,
+    //     link:
+    //         'https://www.figma.com/file/YPPrRugeYV4YDmGjQGA8e7/Artemis-Capital-Advisors-Brand-Identity-System-PRES?node-id=1%3A3',
+    //     dim: true,
+    // },
 
     {
         key: 3,
-        image: '../static/thumbs800x400/patagonia-ww3.gif',
+        // image: '../static/thumbs800x400/patagonia-ww3.gif',
         title: 'Patagonia Provisions',
         desc:
             "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
@@ -308,9 +309,13 @@ const projectsUX = [
         //  tag4: 'Illustrator',
         tag5: 'SVG',
 
-        year: 2017,
+        year: 2019,
         // HREF LINK
-        link: 'https://codepen.io/aaronadler/pen/vWoVoN',
+        // link: 'https://codepen.io/aaronadler/pen/vWoVoN',
+        link: 'https://patagonia-provisions.vercel.app',
+        animData: patagonia,
+        bcgColor: '#e7e2e1',
+        speed: 1,
     },
 
     {
@@ -349,7 +354,7 @@ const projectsUX = [
         tag3: 'Photoshop',
         tag4: 'SVG',
 
-        year: 2016,
+        year: 2018,
         // HREF LINK
         link:
             'https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design',
