@@ -20,8 +20,7 @@ const projectsUX = [
         tag3: 'JavaScript',
         // tag5: 'Desktop',
         year: 2022,
-        link:
-            'https://www.figma.com/file/cOSAtp1cuTasFYOOxcBezO/Wells-Fargo-UX-Design-System?node-id=0%3A1',
+        link: 'https://www.linkedin.com/',
         dim: false,
     },
 

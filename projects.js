@@ -2,41 +2,39 @@ import ibm from './Components/CodeWindow/data-circle-diamond.json';
 import patagonia from './Components/CodeWindow/patagonia.json';
 
 const projects = [
-  {
-    key: 9387,
-    image: '../static/thumbs800x400/eileen-fisher800x400.jpg',
-    title: 'Eileen Fisher',
 
-    desc:
-      'JavaScript web development and GSAP animation within a Salesforce environment.',
 
-    role1: '38 scroll-triggered animations built with Greensock/GSAP',
-    role2: 'Vanilla javaScript and SCSS codebase',
 
-    role3: 'Salesforce CommerceCloud development environment',
+    // LINKEDIN
+    {
+      key: 938262,
+      image: '../static/thumbs800x400/linkedin-thumb-2.jpg',
+      title: 'LinkedIn',
 
-    // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+      desc:
+          'JavaScript prototype development of new features for LinkedIn creators, page admins, and power users. Developed animation solutions for providing user guidance.',
 
-    // techstack: ""
-    // TAGS:
-    tag1: 'HTML5',
-    tag2: 'SCSS',
-    tag3: 'JavaScript',
-    tag4: 'Animation',
-    tag5: 'GSAP',
+      role1: '"Media, Creators, and Events" team: develop and enhance new content-creation tools.',
+      role2: 'JavaScript prototype for Interactive Stickers feature',
+      role3: 'Animation development using Greensock GSAP',
 
-    year: 2022,
-    // HREF LINK
-    link: 'https://www.eileenfisher.com/',
+      tag1: 'JavaScript',
+      tag2: 'UI Animation',
+      tag3: 'CSS',
+      tag4: 'Prototype',
+      // tag5: 'HTML',
+      year: 2022,
+      link: 'https://www.linkedin.com/',
+      dim: false,
   },
-  
+
   {
     key: 1,
-    image: '../static/thumbs800x400/IBM_800x400.jpg',
+    image: '../static/ux/IBM-THUMB-3.jpg',
     title: 'IBM',
 
     desc:
-      "JavaScript web development, and UX design for IBM Partners, IBM's business services portal. Click to view the project.",
+      "JavaScript web development and UX design for IBM Partners, IBM's business services portal. Click to view the site.",
 
     role1: 'UX Design: Mobile and desktop wireframes and design with Sketch',
     role2: 'Front-end: JavaScript development',
@@ -59,6 +57,37 @@ const projects = [
     link: 'https://www.ibm.com/partners/start/',
 
   },
+
+
+  {
+    key: 9387,
+    image: '../static/thumbs800x400/eileen-fisher800x400.jpg',
+    title: 'Eileen Fisher',
+
+    desc:
+      'JavaScript, HTML5 and CSS web development. Developed Greensock / GSAP animated pages  within the Salesforce CommerceCloud development environment.',
+
+    role1: '38 scroll-triggered animations built with Greensock/GSAP',
+    role2: 'Vanilla javaScript and SCSS codebase',
+
+    role3: 'Salesforce CommerceCloud development environment',
+
+    // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+
+    // techstack: ""
+    // TAGS:
+    tag1: 'JavaScript',
+    tag2: 'HTML5',
+    tag3: 'SCSS',
+    tag4: 'UI Animation',
+    tag5: 'GSAP',
+
+    year: 2022,
+    // HREF LINK
+    link: 'https://www.eileenfisher.com/',
+  },
+  
+  
 
   {
     key: 31,
@@ -191,6 +220,33 @@ const projects = [
 
   {
     key: 30,
+    title: 'IBM Partners - Motion Identity',
+    desc:
+      "JavaScript brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
+
+    role1:
+      'Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser.',
+
+    role2:
+      'Scales to any size, runs in the browser at 60fps, compiles to a tiny 43k JSON file.',
+    // TAGS:
+    tag1: 'Sketch',
+    tag2: 'Adobe CC',
+    tag3: 'CSS3',
+    tag4: 'JavaScript',
+
+    year: 2018,
+    // HREF LINK
+    // link: "./ibm.html"
+    // link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
+    link: 'https://ibmpartners.now.sh/',
+    animData: ibm,
+    bcgColor: 'blue',
+    speed: .6,
+  },
+
+  {
+    key: 30,
     image: '../static/thumbs800x400/artemis_800x400-2.jpg',
     title: 'Artemis Capital Advisors',
     desc:
@@ -246,32 +302,7 @@ const projects = [
   //   link: 'https://kith.now.sh/',
   // },
 
-  {
-    key: 30,
-    title: 'IBM Partners - Motion Identity',
-    desc:
-      "JavaScript brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
-
-    role1:
-      'Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser.',
-
-    role2:
-      'Scales to any size, runs in the browser at 60fps, compiles to a tiny 43k JSON file.',
-    // TAGS:
-    tag1: 'Sketch',
-    tag2: 'Adobe CC',
-    tag3: 'CSS3',
-    tag4: 'JavaScript',
-
-    year: 2018,
-    // HREF LINK
-    // link: "./ibm.html"
-    // link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
-    link: 'https://ibmpartners.now.sh/',
-    animData: ibm,
-    bcgColor: 'blue',
-    speed: .6,
-  },
+  
 
   // {
   //   key: 333,
