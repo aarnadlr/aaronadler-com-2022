@@ -247,36 +247,36 @@ const projects = [
     speed: .6,
   },
 
-  {
-    key: 30,
-    image: '../static/thumbs800x400/artemis_800x400-2.jpg',
-    title: 'Artemis Capital Advisors',
-    desc:
-      'React web development, component creation and UX design for Artemis Capital Advisors.',
+  // {
+  //   key: 30,
+  //   image: '../static/thumbs800x400/artemis_800x400-2.jpg',
+  //   title: 'Artemis Capital Advisors',
+  //   desc:
+  //     'React web development, component creation and UX design for Artemis Capital Advisors.',
 
-    role1: 'Front-end: JavaScript / React / NextJS app development',
-    role2: 'UX Design: Mobile and desktop wireframes and design with Figma',
-    role3: 'CSS styles: CSS-in-JS / styledJSX / external SASS',
-    role4: 'Animated brand identity with CSS animation',
-    role5:
-      'React interactive data table component with sort and filter functionality',
-    role6: 'Google Maps API with custom color palette and custom map pin',
-    // TAGS:
-    //  tag1: 'sketch',
-    tag1: 'JavaScript',
-    tag2: 'React',
-    tag3: 'NextJS',
-    tag4: 'CSS/SASS',
-    tag5: 'Figma',
+  //   role1: 'Front-end: JavaScript / React / NextJS app development',
+  //   role2: 'UX Design: Mobile and desktop wireframes and design with Figma',
+  //   role3: 'CSS styles: CSS-in-JS / styledJSX / external SASS',
+  //   role4: 'Animated brand identity with CSS animation',
+  //   role5:
+  //     'React interactive data table component with sort and filter functionality',
+  //   role6: 'Google Maps API with custom color palette and custom map pin',
+  //   // TAGS:
+  //   //  tag1: 'sketch',
+  //   tag1: 'JavaScript',
+  //   tag2: 'React',
+  //   tag3: 'NextJS',
+  //   tag4: 'CSS/SASS',
+  //   tag5: 'Figma',
 
-    year: 2019,
-    //  tag6: 'sass/scss',
-    //  tag7: 'svg',
-    // HREF LINK
-    // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
-    link: 'https://artemis.llc',
-    dim: false,
-  },
+  //   year: 2019,
+  //   //  tag6: 'sass/scss',
+  //   //  tag7: 'svg',
+  //   // HREF LINK
+  //   // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
+  //   link: 'https://artemis.llc',
+  //   dim: false,
+  // },
 
   // KITH
   // {
@@ -398,26 +398,26 @@ const projects = [
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
-  {
-    key: '2BB',
-    image: '../static/Blockparty-800x400-3.jpg',
-    title: 'Blockparty - Blockchain app UX',
-    desc:
-      'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
+  // {
+  //   key: '2BB',
+  //   image: '../static/Blockparty-800x400-3.jpg',
+  //   title: 'Blockparty - Blockchain app UX',
+  //   desc:
+  //     'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
 
-    role:
-      'Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.',
-    // TAGS:
-    tag1: 'Sketch',
-    tag2: 'Illustrator',
-    tag3: 'DMesh',
-    tag4: 'React',
+  //   role:
+  //     'Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.',
+  //   // TAGS:
+  //   tag1: 'Sketch',
+  //   tag2: 'Illustrator',
+  //   tag3: 'DMesh',
+  //   tag4: 'React',
 
-    year: 2018,
-    // HREF LINK
-    link:
-      'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design',
-  },
+  //   year: 2018,
+  //   // HREF LINK
+  //   link:
+  //     'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design',
+  // },
   //
   // {
   //   key: '2C',
