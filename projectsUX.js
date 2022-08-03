@@ -77,8 +77,30 @@ const projectsUX = [
         tag3: 'Finance',
         // tag5: 'Desktop',
         year: 2018,
-        link:
-            'https://www.figma.com/file/cOSAtp1cuTasFYOOxcBezO/Wells-Fargo-UX-Design-System?node-id=0%3A1',
+        // link: 'https://www.figma.com/file/cOSAtp1cuTasFYOOxcBezO/Wells-Fargo-UX-Design-System?node-id=0%3A1',
+        link: 'https://www.wellsfargo.com/',
+        dim: false,
+    },
+
+      // ANTHEM
+      {
+        key: 8,
+        image: '../static/ux/anthem-thumb.jpg',
+        title: 'Anthem Healthcare',
+
+        desc:
+            'Developed a telemedicine app user experience. Including both a Patient-side and Physician-side UX for managing appointments, prescriptions and HIPAA-compliant health records.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Sketch',
+        tag2: 'Telemedicine',
+        tag3: 'UX',
+        tag4: 'Healthcare',
+        // tag5: 'Desktop',
+        year: 2020,
+        link: 'https://www.anthem.com/',
         dim: false,
     },
 
@@ -100,56 +122,10 @@ const projectsUX = [
         tag4: 'SaaS',
         // tag5: 'Desktop',
         year: 2020,
-        link:
-            'https://www.figma.com/file/v4qpALSo4380PTEbTPV0TE/Ernst-and-Young-IRIS-File-Upload-UX?node-id=0%3A1',
+        // link:'https://www.figma.com/file/v4qpALSo4380PTEbTPV0TE/Ernst-and-Young-IRIS-File-Upload-UX?node-id=0%3A1',
+        link:'https://www.ey.com/en_us',
         dim: false,
     },
-
-
-    // OPEN IGLOO UX
-    {
-        key: 8,
-        image: '../static/ux/thumb_openigloo.jpg',
-        title: 'Open Igloo',
-
-        desc:
-            'UX design and functional Figma prototype for Open Igloo, real estate market app. Click to view the project in Figma.',
-
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
-
-        tag1: 'Figma',
-        tag2: 'UX',
-        tag3: 'Mobile',
-        tag4: 'Prototype',
-        year: 2020,
-        link: 'https://www.figma.com/file/5Ck0WRjzAFjCQYW2dIj1YH/openigloo-UX-Design-Prototype-R3?node-id=0%3A1',
-        dim: false,
-    },
-
-     // SUPERCARD
-     {
-        key: 8,
-        image: '../static/ux/thumb_super2.jpg',
-        title: 'Supercard',
-
-        desc:
-            'UX mobile app design for Supercard, digital greeting cards. Click to view the project in Figma.',
-
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
-
-        tag1: 'Figma',
-        tag2: 'UX',
-        tag3: 'Mobile',
-        tag4: 'Web App',
-        year: 2020,
-        // link: 'https://www.figma.com/file/TMftwd6BI0Pgawhzs2xH9h/Supercard-Mobile-UX-R2?node-id=0%3A1',
-        link: 'https://supercardco.com/',
-        dim: false,
-    },
-
-
 
     {
         key: 30,
@@ -177,6 +153,83 @@ const projectsUX = [
         bcgColor: 'blue',
         speed: .6,
     },
+
+
+    // OPEN IGLOO UX
+    {
+        key: 8,
+        image: '../static/ux/thumb_openigloo.jpg',
+        title: 'Open Igloo',
+
+        desc:
+            'UX design and functional Figma prototype for Open Igloo, real estate market app. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Mobile',
+        tag4: 'Prototype',
+        year: 2020,
+        // link: 'https://www.figma.com/file/5Ck0WRjzAFjCQYW2dIj1YH/openigloo-UX-Design-Prototype-R3?node-id=0%3A1',
+        link: 'https://apps.apple.com/us/app/openigloo/id1521697583',
+        dim: false,
+    },
+
+
+    {
+        key: 3,
+        // image: '../static/thumbs800x400/patagonia-ww3.gif',
+        title: 'Patagonia Provisions',
+        desc:
+            "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
+
+        role:
+            'Created the Provisions design artwork in Pshop/Illustrator, based on brand assets. Animated the assets in After Effects. Rendered to JSON and implemented into a codebase.',
+        // TAGS:
+        //  tag1: 'sketch',
+        //  tag2: 'CSS3',
+        tag1: 'After Effects',
+        tag2: 'JavaScript',
+        tag3: 'Lottie',
+        //  tag4: 'Illustrator',
+        tag5: 'SVG',
+
+        year: 2019,
+        // HREF LINK
+        // link: 'https://codepen.io/aaronadler/pen/vWoVoN',
+        link: 'https://patagonia-provisions.vercel.app',
+        animData: patagonia,
+        bcgColor: '#e7e2e1',
+        speed: 1,
+    },
+
+    
+     // SUPERCARD
+     {
+        key: 8,
+        image: '../static/ux/thumb_super2.jpg',
+        title: 'Supercard',
+
+        desc:
+            'UX mobile app design for Supercard, digital greeting cards. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Mobile',
+        tag4: 'Web App',
+        year: 2020,
+        // link: 'https://www.figma.com/file/TMftwd6BI0Pgawhzs2xH9h/Supercard-Mobile-UX-R2?node-id=0%3A1',
+        link: 'https://supercardco.com/',
+        dim: false,
+    },
+
+
+   
 
     {
         key: 7,
@@ -291,33 +344,7 @@ const projectsUX = [
     //     dim: true,
     // },
 
-    {
-        key: 3,
-        // image: '../static/thumbs800x400/patagonia-ww3.gif',
-        title: 'Patagonia Provisions',
-        desc:
-            "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
-
-        role:
-            'Created the Provisions design artwork in Pshop/Illustrator, based on brand assets. Animated the assets in After Effects. Rendered to JSON and implemented into a codebase.',
-        // TAGS:
-        //  tag1: 'sketch',
-        //  tag2: 'CSS3',
-        tag1: 'After Effects',
-        tag2: 'JavaScript',
-        tag3: 'Lottie',
-        //  tag4: 'Illustrator',
-        tag5: 'SVG',
-
-        year: 2019,
-        // HREF LINK
-        // link: 'https://codepen.io/aaronadler/pen/vWoVoN',
-        link: 'https://patagonia-provisions.vercel.app',
-        animData: patagonia,
-        bcgColor: '#e7e2e1',
-        speed: 1,
-    },
-
+   
     {
         key: '5',
         image: '../static/Blockparty-800x400-3.jpg',
