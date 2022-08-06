@@ -21,7 +21,32 @@ const projectsUX = [
         tag3: 'JavaScript',
         // tag5: 'Desktop',
         year: 2022,
-        link: 'https://www.linkedin.com/',
+        // link: 'https://www.linkedin.com/',
+        link: 'https://www.figma.com/file/Ad3jxlEfdriyHCsw1MVHjU/LinkedIn-%7C-Live-Audio-Events---Present?node-id=0%3A1',
+        dim: false,
+    },
+
+
+      // ANTHEM
+      {
+        key: 8,
+        image: '../static/ux/anthem-thumb.jpg',
+        title: 'Anthem Healthcare',
+
+        desc:
+            'Developed a telemedicine app user experience. Including both a Patient-side and Physician-side UX for managing appointments, prescriptions and HIPAA-compliant health records.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Sketch',
+        tag2: 'Telemedicine',
+        tag3: 'UX',
+        tag4: 'Healthcare',
+        // tag5: 'Desktop',
+        year: 2020,
+        // link: 'https://www.anthem.com/',
+        link: 'https://www.sketch.com/s/c50509ea-0216-4ef6-9443-150a621ebbe2/p/22726FCA-9800-4619-8255-D7BD81AE00D8/canvas',
         dim: false,
     },
 
@@ -49,8 +74,8 @@ const projectsUX = [
         year: 2018,
         // HREF LINK
         // link: "./ibm.html"
-        // link: 'https://www.figma.com/file/BRKj04qEZVjVrpRn1vvknn/IBM-Partners-UX-Homepage?node-id=0%3A1',
-        link: 'https://www.ibm.com/partners/start/',
+        link: 'https://www.figma.com/file/BRKj04qEZVjVrpRn1vvknn/IBM-Partners-UX-Homepage?node-id=0%3A1',
+        // link: 'https://www.ibm.com/partners/start/',
       },
       
 
@@ -77,30 +102,8 @@ const projectsUX = [
         tag3: 'Finance',
         // tag5: 'Desktop',
         year: 2018,
-        // link: 'https://www.figma.com/file/cOSAtp1cuTasFYOOxcBezO/Wells-Fargo-UX-Design-System?node-id=0%3A1',
-        link: 'https://www.wellsfargo.com/',
-        dim: false,
-    },
-
-      // ANTHEM
-      {
-        key: 8,
-        image: '../static/ux/anthem-thumb.jpg',
-        title: 'Anthem Healthcare',
-
-        desc:
-            'Developed a telemedicine app user experience. Including both a Patient-side and Physician-side UX for managing appointments, prescriptions and HIPAA-compliant health records.',
-
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
-
-        tag1: 'Sketch',
-        tag2: 'Telemedicine',
-        tag3: 'UX',
-        tag4: 'Healthcare',
-        // tag5: 'Desktop',
-        year: 2020,
-        link: 'https://www.anthem.com/',
+        link: 'https://www.figma.com/file/cOSAtp1cuTasFYOOxcBezO/Wells-Fargo-UX-Design-System?node-id=0%3A1',
+        // link: 'https://www.wellsfargo.com/',
         dim: false,
     },
 
@@ -122,8 +125,8 @@ const projectsUX = [
         tag4: 'SaaS',
         // tag5: 'Desktop',
         year: 2020,
-        // link:'https://www.figma.com/file/v4qpALSo4380PTEbTPV0TE/Ernst-and-Young-IRIS-File-Upload-UX?node-id=0%3A1',
-        link:'https://www.ey.com/en_us',
+        link:'https://www.figma.com/file/v4qpALSo4380PTEbTPV0TE/Ernst-and-Young-IRIS-File-Upload-UX?node-id=0%3A1',
+        // link:'https://www.ey.com/en_us',
         dim: false,
     },
 
@@ -172,8 +175,8 @@ const projectsUX = [
         tag3: 'Mobile',
         tag4: 'Prototype',
         year: 2020,
-        // link: 'https://www.figma.com/file/5Ck0WRjzAFjCQYW2dIj1YH/openigloo-UX-Design-Prototype-R3?node-id=0%3A1',
-        link: 'https://apps.apple.com/us/app/openigloo/id1521697583',
+        link: 'https://www.figma.com/file/5Ck0WRjzAFjCQYW2dIj1YH/openigloo-UX-Design-Prototype-R3?node-id=0%3A1',
+        // link: 'https://apps.apple.com/us/app/openigloo/id1521697583',
         dim: false,
     },
 
