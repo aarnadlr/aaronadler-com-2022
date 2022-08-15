@@ -1,0 +1,182 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "oar_id": "IN2019172MCFFX8",
+        "name": "Adiv Pure Nature Products Pvt Ltd",
+        "address": "B6 East Andheri, Mumbai, Maharashtra India",
+        "country_code": "IN",
+        "country_name": "India",
+        "contributors": "EILEEN FISHER Inc. (EILEEN FISHER Supplier Facility List)",
+        "number_of_workers": "0-1000 (EILEEN FISHER Inc. on January 6, 2022)|0-1000 (a Brand / Retailer on January 5, 2022)"
+      },
+      "geometry": {
+        "coordinates": [72.8820217, 19.1065458],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "oar_id": "IT2019172WPBDHE",
+        "name": "Agolab Studio S.R.L.",
+        "address": "Via Michelangelo 17/B 59013 Montemurlo (PO), Italy",
+        "country_code": "IT",
+        "country_name": "Italy",
+        "contributors": "EILEEN FISHER Inc. (EILEEN FISHER Supplier Facility List)",
+        "number_of_workers": "0-1000 (EILEEN FISHER Inc. on January 6, 2022)|0-1000 (a Brand / Retailer on January 5, 2022)"
+      },
+      "geometry": {
+        "coordinates": [11.0628957, 43.90829040000001],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "oar_id": "US20220050JZYFH",
+        "name": "Alvarez Farms",
+        "address": "N/A",
+        "country_code": "US",
+        "country_name": "United States",
+        "contributors": "EILEEN FISHER Inc. (EILEEN FISHER Supplier Facility List)",
+        "number_of_workers": "0 (EILEEN FISHER Inc. on January 6, 2022)|0 (a Brand / Retailer on January 5, 2022)"
+      },
+      "geometry": {
+        "coordinates": [-95.712891, 37.09024],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "oar_id": "US2019172ETPTNB",
+        "name": "Andari Fashion Inc.",
+        "address": "9626 Telstar Ave., Los Angeles, CA El, Monte, CA 91731",
+        "country_code": "US",
+        "country_name": "United States",
+        "lat": "34.068835",
+        "lng": -118.0603309,
+        "contributors": "Better Cotton Initiative [Public List] (Better Cotton Initiative May 2021)|Better Cotton Initiative [Public List] (Better Cotton Initiative June 2020)|Ralph Lauren Corporation (Supplier Disclosure T1 Factory 2022)|EILEEN FISHER Inc. (EILEEN FISHER Supplier Facility List)",
+        "number_of_workers": "0-1000 (Ralph Lauren Corporation on April 29, 2022)|0-1000 (a Brand / Retailer on March 16, 2022)|0-1000 (EILEEN FISHER Inc. on January 6, 2022)|0-1000 (a Brand / Retailer on January 5, 2022)",
+        "parent_company": "ANDARI FASHION INC (Ralph Lauren Corporation on April 29, 2022)|ANDARI FASHION INC (a Brand / Retailer on April 28, 2022)",
+        "facility_type": "Final Product Assembly (Ralph Lauren Corporation on April 29, 2022)|Final Product Assembly (a Brand / Retailer on March 16, 2022)",
+        "facility_type_raw": "Manufacturing (Ralph Lauren Corporation on April 29, 2022)|Manufacturing (a Brand / Retailer on March 16, 2022)",
+        "processing_type": "Manufacturing (Ralph Lauren Corporation on April 29, 2022)|Manufacturing (a Brand / Retailer on March 16, 2022)",
+        "processing_type_raw": "Manufacturing (Ralph Lauren Corporation on April 29, 2022)|Manufacturing (a Brand / Retailer on March 16, 2022)",
+        "product_type": "KNITS (Ralph Lauren Corporation on April 29, 2022)|KNITS (a Brand / Retailer on March 16, 2022)",
+        "is_closed": ""
+      },
+      "geometry": {
+        "coordinates": [-118.0603309, 34.068835],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oar_id": "ES2022005N8YHS8",
+        "name": "Aprestos de Laneria SpA",
+        "address": "c/ Camí del Molí de l'Amat s/n Apt. Correus 411-08208 Sabadell, Barcelona, Spain",
+        "country_code": "ES",
+        "country_name": "Spain",
+        "lat": "41.5677592",
+        "lng": 2.1082727,
+        "contributors": "EILEEN FISHER Inc. (EILEEN FISHER Supplier Facility List)|An Auditor / Certification Scheme / Service Provider",
+        "number_of_workers": "0-1000 (EILEEN FISHER Inc. on January 6, 2022)|0-1000 (a Brand / Retailer on January 5, 2022)",
+        "parent_company": "",
+        "facility_type": "",
+        "facility_type_raw": "",
+        "processing_type": "",
+        "processing_type_raw": "",
+        "product_type": "",
+        "is_closed": ""
+      },
+      "geometry": {
+        "coordinates": [2.1082727, 41.5677592],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "oar_id": "PE2022005Q1W0RC",
+        "name": "Art Atlas & Home Workshops",
+        "address": "AV Caracas Q-9 URB Simon Bolivar - Jose Luis Bustamante y Rivero, Arequipa, Peru",
+        "country_code": "PE",
+        "country_name": "Peru",
+        "lat": "-16.4437086",
+        "lng": -71.515323,
+        "contributors": "EILEEN FISHER Inc. (EILEEN FISHER Supplier Facility List)",
+        "number_of_workers": "0-1000 (EILEEN FISHER Inc. on January 6, 2022)|0-1000 (a Brand / Retailer on January 5, 2022)",
+        "parent_company": "",
+        "facility_type": "",
+        "facility_type_raw": "",
+        "processing_type": "",
+        "processing_type_raw": "",
+        "product_type": "",
+        "is_closed": ""
+      },
+      "geometry": {
+        "coordinates": [-71.515323, -16.4437086],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oar_id": "JP2022005NFGBRW",
+        "name": "Asai Shibori Shoji Co. Ltd.",
+        "address": "146-1 Mukaida Narumi, Midori-ku, Nagoya, Aichi 458-0831, Japan",
+        "country_code": "JP",
+        "country_name": "Japan",
+        "lat": "35.0786239",
+        "lng": 136.950836,
+        "contributors": "EILEEN FISHER Inc. (EILEEN FISHER Supplier Facility List)",
+        "number_of_workers": "0-1000 (EILEEN FISHER Inc. on January 6, 2022)|0-1000 (a Brand / Retailer on January 5, 2022)",
+        "parent_company": "",
+        "facility_type": "",
+        "facility_type_raw": "",
+        "processing_type": "",
+        "processing_type_raw": "",
+        "product_type": "",
+        "is_closed": ""
+      },
+      "geometry": {
+        "coordinates": [136.950836, 35.0786239],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oar_id": "IN20220057FBD7Q",
+        "name": "Baird McNutt India",
+        "address": "Plot 45/25, CSEZ, Kakkanad, Kochi, Kerala 682037, India",
+        "country_code": "IN",
+        "country_name": "India",
+        "lat": "10.001716",
+        "lng": 76.3376461,
+        "contributors": "EILEEN FISHER Inc. (EILEEN FISHER Supplier Facility List)",
+        "number_of_workers": "0-1000 (EILEEN FISHER Inc. on January 6, 2022)|0-1000 (a Brand / Retailer on January 5, 2022)",
+        "parent_company": "",
+        "facility_type": "",
+        "facility_type_raw": "",
+        "processing_type": "",
+        "processing_type_raw": "",
+        "product_type": "",
+        "is_closed": ""
+      },
+      "geometry": {
+        "coordinates": [76.3376461, 10.001716],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
