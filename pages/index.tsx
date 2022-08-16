@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 // import Image from 'next/image'
-
+import { useEffect, useRef } from 'react';
 // import styles from '@/pages/index.module.css'
 import TopNav from '../Components/TopNav';
 import WelcomeBio from '../Components/WelcomeBio';
@@ -11,69 +11,90 @@ import Footer from '../Components/Footer';
 import HackerrankScore from '../Components/hackerrank-score';
 // import Link from 'next/link';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
+import Cookies from 'js-cookie';
 
 export default function Index() {
 
-  
-    return (
-      <div>
-        {
-          console.log('aaronadler.com')
-        }
-        <Head>
-          <title>Aaron Adler | Frontend Engineer</title>
-        </Head>
-        {/* <RSSRequestHOC/> */}
+  useEffect(() => {
 
-        <TopNav />
+    fetch('/api/routeOne', {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        token: '1234'
+      })
+    }).then((res) => res.json())
+      .then((json) => console.log('query string:', json.query));
 
-        <WelcomeBio />
+  },[]);
 
-        <div className="algos">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.codewars.com/users/aarnadlr"
-          >
-            <img
-              src="https://www.codewars.com/users/aarnadlr/badges/large"
-              alt=""
-            />
-          </a>
+  return (
+    <div>
+      {console.log('aaronadler.com')}
+      <Head>
+        <title>Aaron Adler | Frontend Engineer</title>
+      </Head>
 
-          <HackerrankScore />
-        </div>
+      <TopNav />
+      <WelcomeBio />
 
-        <Cards />
+      <div className="algos">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.codewars.com/users/aarnadlr"
+        >
+          <img
+            src="https://www.codewars.com/users/aarnadlr/badges/large"
+            alt=""
+          />
+        </a>
 
-        {/* <MediumCard/> */}
-
-        <CoreTools />
-
-        <Footer />
-
-        <style jsx>
-          {`
-            .algos {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-            }
-
-            .algos a {
-              transition: all 0.3s ease;
-              margin: 0 0 40px 0;
-            }
-            .algos a:hover {
-              transform: translateY(-3px);
-            }
-
-            .algos a img {
-              cursor: pointer;
-              display: block;
-            }
-          `}
-        </style>
+        <HackerrankScore />
       </div>
-    );
+
+      <Cards />
+
+      {/* <MediumCard/> */}
+
+      <CoreTools />
+
+      <Footer />
+
+      <style jsx>
+        {`
+          .algos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .algos a {
+            transition: all 0.3s ease;
+            margin: 0 0 40px 0;
+          }
+          .algos a:hover {
+            transform: translateY(-3px);
+          }
+
+          .algos a img {
+            cursor: pointer;
+            display: block;
+          }
+        `}
+      </style>
+    </div>
+  );
 }
+
+// export async function getServerSideProps({ req, res }:{ req:{}, res:{} }) {
+//   // const res = await fetch(`${server}/api/routeOne`)
+//   // const data = await res.json()
+//   // console.log('data:', data)
+
+//   return {
+//     props: { token: JSON.stringify(req?.cookies.token) }, // will be passed to the page component as props
+//   };
+// }
