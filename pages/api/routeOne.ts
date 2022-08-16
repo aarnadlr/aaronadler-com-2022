@@ -24,8 +24,10 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     })
   );
   res.status(200).send({
+    method: req.method,
     body: req.body,
-    query: req.query,
+    // query: req.query,
+    url: req.url,
     cookies: req.cookies,
   });
 

@@ -11,24 +11,28 @@ import Footer from '../Components/Footer';
 import HackerrankScore from '../Components/hackerrank-score';
 // import Link from 'next/link';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
-import Cookies from 'js-cookie';
+// import Cookies from 'js-cookie';
+// import {useRouter} from "next/router";
+
 
 export default function Index() {
 
-  useEffect(() => {
+  // const { query } = useRouter();
 
-    fetch('/api/routeOne', {
-      method: 'post',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        token: '1234'
-      })
-    }).then((res) => res.json())
-      .then((json) => console.log('query string:', json.query));
+  // useEffect(() => {
 
-  },[]);
+  //   fetch('/api/routeOne', {
+  //     method: 'post',
+  //     headers: {
+  //       'Content-Type': 'application/json',
+  //     },
+  //     body: JSON.stringify({
+  //       token: '1234'
+  //     })
+  //   }).then((res) => res.json())
+  //     .then((json) => console.log('json:', json));
+
+  // },[]);
 
   return (
     <div>
