@@ -14,6 +14,8 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   
+  console.log('req.query:', req.query);
+
   res.setHeader(
     'Set-Cookie',
     cookie.serialize('color', 'green', {

@@ -12,16 +12,16 @@ import HackerrankScore from '../Components/hackerrank-score';
 // import Link from 'next/link';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 // import Cookies from 'js-cookie';
-// import {useRouter} from "next/router";
+import {useRouter} from "next/router";
 
 
 export default function Index() {
 
   // const { query } = useRouter();
 
-  // useEffect(() => {
-
-  //   fetch('/api/routeOne', {
+  // useEffect(()=>{
+    
+  //   fetch(`/api/routeOne?${'key'}=${'value'}`, {
   //     method: 'post',
   //     headers: {
   //       'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ export default function Index() {
   //   }).then((res) => res.json())
   //     .then((json) => console.log('json:', json));
 
-  // },[]);
+  // },[query])
 
   return (
     <div>
