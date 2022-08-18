@@ -14,7 +14,6 @@ const Gif = () => {
         />
       </div>
       <style jsx>{`
-        //mobile
         main {
           background: black;
           width: 100vw;
@@ -22,13 +21,18 @@ const Gif = () => {
           padding-top: 100px;
         }
         div {
-          width: 70vw;
           display: block;
           margin: 0 auto;
         }
+        /* PHONE Portrait */
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+          div {
+            width: 70vw;
+          }
+        }
 
-        //desktop
-        @media screen and (min-width: 800px) {
+        /* DESKTOP Portrait */
+        @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
           div {
             width: 40vw;
           }
