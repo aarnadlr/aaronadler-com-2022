@@ -20,11 +20,11 @@ const Gif = () => {
             background: black;
             width: 100vw;
             height: 100vh;
-            display: grid;
-            place-items: center;
+            padding-top: 100px;
           }
           div {
-            width: 60vw;
+            
+            width: 70vw;
             background: black;
             display: block;
             margin: 0 auto;
