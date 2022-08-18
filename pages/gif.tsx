@@ -5,31 +5,35 @@ const Gif = () => {
     <main>
       <div>
         <Image
+          priority
           layout="responsive"
           src="/static/giphy.gif"
           width="600"
           height="500"
           alt="gif"
         />
-        
       </div>
       <style jsx>{`
-          //mobile
+        //mobile
+        main {
+          background: black;
+          width: 100vw;
+          height: 100vh;
+          padding-top: 100px;
+        }
+        div {
+          width: 70vw;
+          display: block;
+          margin: 0 auto;
+        }
 
-          main{
-            background: black;
-            width: 100vw;
-            height: 100vh;
-            padding-top: 100px;
-          }
+        //desktop
+        @media screen and (min-width: 800px) {
           div {
-            
-            width: 70vw;
-            background: black;
-            display: block;
-            margin: 0 auto;
+            width: 40vw;
           }
-        `}</style>
+        }
+      `}</style>
     </main>
   );
 };
