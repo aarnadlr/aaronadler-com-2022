@@ -31,7 +31,15 @@ const CoreTools = () => (
               {/* <i className="fab fa-react rainbow9" /> */}
               <i className="fab fa-react rainbow5"></i>
             </span>
-            React
+            React 16+ Hooks
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              {/* <i className="fab fa-react rainbow9" /> */}
+              <i className="fas fa-database rainbow6"></i>
+            </span>
+            Svelte/Sveltekit
           </li>
 
           <li className="skill">
@@ -46,15 +54,15 @@ const CoreTools = () => (
             <span className="fa-stack">
               <i className="fa fa-th-large rainbow7" />
             </span>
-            CSS Grid
+            CSS grid/flexbox
           </li>
 
-          <li className="skill">
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-bars rainbow7" />
             </span>
             CSS Flexbox
-          </li>
+          </li> */}
 
           <li className="skill">
             <span className="fa-stack">
@@ -71,6 +79,42 @@ const CoreTools = () => (
             NextJS
           </li>
 
+          
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-laptop-code rainbow13" />
+            </span>{' '}
+            Git/GitHub/Azure DevOps
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-laptop-code rainbow13" />
+            </span>{' '}
+            Jira/Bitbucket
+          </li>
+
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-laptop rainbow16" />
+            </span>{" "}
+            Tailwind CSS</li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-adjust rainbow17" />
+            </span>{" "}
+            Styled-Components</li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-video rainbow12" />
+            </span>{' '}
+            Greensock/GSAP
+          </li>
+
+
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fas fa-pencil-alt rainbow1" />
@@ -85,12 +129,6 @@ const CoreTools = () => (
             Figma
           </li>
 
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-laptop-code rainbow13" />
-            </span>{' '}
-            Git/GitHub
-          </li>
 
           <li className="skill">
             <span className="fa-stack">
@@ -143,24 +181,7 @@ const CoreTools = () => (
           </li> */}
 
 
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-laptop rainbow16" />
-            </span>{" "}
-            Tailwind CSS</li>
-
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-adjust rainbow17" />
-            </span>{" "}
-            Styled-components</li>
-
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-video rainbow12" />
-            </span>{' '}
-            Greensock/GSAP
-          </li>
+          
 
           <li className="skill">
             <span className="fa-stack">
@@ -217,6 +238,14 @@ const CoreTools = () => (
             </span>
             Firebase
           </li>
+<li className="skill">
+
+            Vercel/Serverless/Edge funcs
+          </li>
+<li className="skill">
+
+            Builder.io
+          </li>
 
          
 
@@ -229,18 +258,13 @@ const CoreTools = () => (
             GraphQL
           </li> */}
 
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-bezier-curve rainbow10" />
-            </span>{' '}
-            TensorFlow.js
-          </li>
+          
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-terminal rainbow11" />
             </span>{' '}
-            Node
+            NodeJS
           </li>
 
 
@@ -248,7 +272,7 @@ const CoreTools = () => (
             <span className="fa-stack">
               <i className="fa fa-random rainbow12" />
             </span>{' '}
-            Express
+            ExpressJS
           </li>
 
 
@@ -258,6 +282,7 @@ const CoreTools = () => (
             </span>{' '}
             MongoDB
           </li>
+
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-briefcase rainbow14" />
@@ -265,12 +290,16 @@ const CoreTools = () => (
             PostCSS
           </li>
 
-          {/* <li className="skill">
+          <li className="skill">
+            Material UI
+          </li>
+
+          <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-space-shuttle rainbow16" />
-            </span>{" "}
-            Meteor
-          </li> */}
+              <i className="fa fa-bezier-curve rainbow10" />
+            </span>{' '}
+            TensorFlow.js
+          </li>
 
           <li className="skill">
             <span className="fa-stack">

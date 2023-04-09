@@ -131,6 +131,7 @@ const Cards = () => {
         }
 
         .image {
+          width: 100%;
           border-top-right-radius: 4px;
           border-top-left-radius: 4px;
         }

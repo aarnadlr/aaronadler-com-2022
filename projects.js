@@ -5,6 +5,27 @@ const projects = [
 
 
 
+    // DAYDRM
+    {
+      key: 293834748,
+      image: '../static/thumbs800x400/daydrm-thumb-2.jpg',
+      title: 'Daydrm.ai',
+
+      desc:
+          'Fullstack TypeScript/NodeJS web application. AI tools for advertising strategy and creative ideas. Generator and chat-based interfaces for creating custom AI-generated content.',
+
+      role1: 'Founded and developed as a solo engineer. Added two partners after launch.',
+      role2: 'Front-end: TypeScript, React, NextJS. Backend: NodeJS.',
+      role3: 'Stripe API integration for payment. Firebase for authentication. Realtime Database for data storage.',
+      tag1: 'TypeScript',
+      tag2: 'Node',
+      tag3: 'React',
+      tag4: 'NextJS',
+      // tag5: 'HTML',
+      year: 2023,
+      link: 'https://www.daydrm.ai/',
+      dim: false,
+  },
     // LINKEDIN
     {
       key: 938262,
@@ -116,34 +137,34 @@ const projects = [
     dim: false,
   },
 
-  {
-    key: 30,
-    image: '../static/thumbs800x400/eejs_800x400-2.jpg',
-    title: 'EricElliottJS.com',
-    desc:
-      "React web development, component creation and UX design for Eric Elliott's JavaScript education platform.",
+  // {
+  //   key: 30,
+  //   image: '../static/thumbs800x400/eejs_800x400-2.jpg',
+  //   title: 'EricElliottJS.com',
+  //   desc:
+  //     "React web development, component creation and UX design for Eric Elliott's JavaScript education platform.",
 
-    role1: 'Front-end: React and NextJS development',
-    role2: 'UX Design: Mobile and desktop wireframes and design with Sketch',
-    role3: 'Implemented user payments with Paypal SDK',
-    role4:
-      'Implemented user auth with Firebase Auth and persistent data with Cloud Firestore',
-    role5: 'SVG/JS animation with Adobe After Effects and LottieJS',
-    // TAGS:
-    //  tag1: 'sketch',
-    tag1: 'JavaScript',
-    tag2: 'React',
-    tag3: 'NextJS',
-    tag4: 'CSS/SASS',
+  //   role1: 'Front-end: React and NextJS development',
+  //   role2: 'UX Design: Mobile and desktop wireframes and design with Sketch',
+  //   role3: 'Implemented user payments with Paypal SDK',
+  //   role4:
+  //     'Implemented user auth with Firebase Auth and persistent data with Cloud Firestore',
+  //   role5: 'SVG/JS animation with Adobe After Effects and LottieJS',
+  //   // TAGS:
+  //   //  tag1: 'sketch',
+  //   tag1: 'JavaScript',
+  //   tag2: 'React',
+  //   tag3: 'NextJS',
+  //   tag4: 'CSS/SASS',
 
-    year: 2019,
-    //  tag6: 'sass/scss',
-    //  tag7: 'svg',
-    // HREF LINK
-    // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
-    link: 'https://ericelliottjs.com',
-    dim: false,
-  },
+  //   year: 2019,
+  //   //  tag6: 'sass/scss',
+  //   //  tag7: 'svg',
+  //   // HREF LINK
+  //   // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
+  //   link: 'https://ericelliottjs.com',
+  //   dim: false,
+  // },
 
   {
     key: 1,
