@@ -102,32 +102,35 @@ const WelcomeBio = () => (
       </div>
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
-        Hi there. &nbsp;I&#39;m a&nbsp;
-        <span className="highlight">&nbsp;Front-end Software Developer&nbsp;</span>
+        Hi there. &nbsp;I&#39;m a&nbsp;&nbsp;
+        <span className="highlight">&nbsp;&nbsp;Front-end Software Engineer&nbsp;&nbsp;</span>
         {/*&nbsp;and&nbsp;*/}
         {/*<span className="highlight">&nbsp;UX Engineer&nbsp;</span>*/}
-        &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, LinkedIn, IBM and others. &nbsp;My work has been recognized by Cannes, AICP, the
+        &nbsp;&nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, LinkedIn, IBM and others. &nbsp;My work has been recognized by Cannes, AICP, the
         Art Directors Club, and the New York Times. &nbsp;My focus is on
         {' '}
-        <span className="highlight">&nbsp;JavaScript&nbsp;</span>
+        <span className="highlight">&nbsp;&nbsp;TypeScript / JavaScript&nbsp;&nbsp;</span>
         &nbsp;,
         {' '}
-        <span className="highlight">&nbsp;React&nbsp;</span>
+        <span className="highlight">&nbsp;&nbsp;React&nbsp;&nbsp;</span>
+        &nbsp;,
+        {' '}
+        <span className="highlight">&nbsp;&nbsp;Svelte&nbsp;&nbsp;</span>
         &nbsp;, and
         {' '}
-        <span className="highlight">&nbsp;CSS&nbsp;</span>
+        <span className="highlight">&nbsp;&nbsp;CSS&nbsp;&nbsp;</span>
         &nbsp;.&nbsp;&nbsp;
 
-         <Link href="/ux">
+         {/* <Link href="/ux">
           <a
-            // target={'_blank'}
             className={'hoverLink'}
+            // target={'_blank'}
             // style={{ color: 'rgb(13, 2, 165)' }}
             // style={{ color: 'rgb(14, 0, 202)' }}
           >
             Tap here to view UX Design work.
           </a>
-        </Link>
+        </Link> */}
       </h2>
 
 
@@ -136,7 +139,7 @@ const WelcomeBio = () => (
     <style jsx>
       {`
         #topSection{
-          max-width: 480px;
+          max-width: 565px;
         }
         .icon {
           width: 20px;
