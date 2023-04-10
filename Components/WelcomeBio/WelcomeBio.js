@@ -8,7 +8,7 @@ import Link from 'next/link';
 // `
 
 const WelcomeBio = () => (
-  <main className="">
+  <main className="main">
     <div id="topSection" className="flex flex-column center mt6 mb5">
       <img
         id="profile-pic"
@@ -19,7 +19,7 @@ const WelcomeBio = () => (
       <h1 className="f2c tc fw4">Aaron Adler</h1>
 
       {/* SOCIAL ICONS UNDER NAME */}
-      <div className="flex justify-center mb4">
+      <div className="flex justify-center mb4 logo-container">
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -138,6 +138,9 @@ const WelcomeBio = () => (
 
     <style jsx>
       {`
+        .main {
+          margin-bottom: 80px;
+        }
         #topSection{
           max-width: 565px;
         }

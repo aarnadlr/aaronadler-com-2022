@@ -850,10 +850,11 @@
   -webkit-transform: translateZ( 0 );
   transform: translateZ( 0 );
   transition: -webkit-transform .25s ease-out;
-  transition: transform .25s ease-out;
-  transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
+  /* transition: transform .25s ease-out; */
+  transition: transform .25s ease, -webkit-transform .25s ease;
+}
 .grow-large-2:hover, .grow:focus {
-  -webkit-transform: scale( 1.35 ); transform: scale( 1.35 ); }
+  -webkit-transform: scale( 1.25 ); transform: scale( 1.25 ); }
 .grow-large-2:active {
   -webkit-transform: scale( .90 ); transform: scale( .90 ); }
 

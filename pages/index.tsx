@@ -44,7 +44,7 @@ export default function Index() {
       <TopNav />
       <WelcomeBio />
 
-      <div className="algos">
+      {/* <div className="algos">
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -57,7 +57,7 @@ export default function Index() {
         </a>
 
         <HackerrankScore />
-      </div>
+      </div> */}
 
       <Cards />
 
