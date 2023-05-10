@@ -53,32 +53,37 @@ const projects = [
 
 
   {
-    key: 9387,
-    image: '../static/thumbs800x400/eileen-fisher800x400.jpg',
-    title: 'Eileen Fisher',
+    key: 82737,
+    image: '../static/thumbs800x400/stella-thumb3.jpg',
+    title: 'Stella Artois',
 
     desc:
-      'JavaScript, HTML5 and CSS web development. Developed Greensock / GSAP animated pages  within the Salesforce CommerceCloud development environment.',
+      'Svelte, JavaScript, HTML5 and CSS web development. Integrated Builder.io as headless CMS for content updates injected into the Sveltekit app.',
 
-    role1: '38 scroll-triggered animations built with Greensock/GSAP',
-    role2: 'Vanilla javaScript and SCSS codebase',
+    role1: 'Integrated multiple third-party APIs for content and data.',
+    role2: 'Wired up contact and submission forms using Node on the server.',
 
-    role3: 'Salesforce CommerceCloud development environment',
+    role3: 'Integrated Builder.io as headless CMS',
 
     // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
 
     // techstack: ""
     // TAGS:
-    tag1: 'JavaScript',
-    tag2: 'HTML5',
-    tag3: 'SCSS',
-    tag4: 'UI Animation',
-    tag5: 'GSAP',
+    tag1: 'Svelte',
+    tag2: 'JavaScript',
+    tag3: 'HTML5',
+    tag4: 'SCSS',
+    tag5: 'Builder.io',
 
-    year: 2022,
+    year: 2023,
     // HREF LINK
-    link: 'https://www.eileenfisher.com/',
+    link: 'https://www.stellaartois.com/',
   },
+
+
+ 
+
+
 
   {
     key: 1,
@@ -111,6 +116,33 @@ const projects = [
   },
   
   
+  {
+    key: 9387,
+    image: '../static/thumbs800x400/eileen-fisher800x400.jpg',
+    title: 'Eileen Fisher',
+
+    desc:
+      'JavaScript, HTML5 and CSS web development. Developed Greensock / GSAP animated pages  within the Salesforce CommerceCloud development environment.',
+
+    role1: '38 scroll-triggered animations built with Greensock/GSAP',
+    role2: 'Vanilla javaScript and SCSS codebase',
+
+    role3: 'Salesforce CommerceCloud development environment',
+
+    // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+
+    // techstack: ""
+    // TAGS:
+    tag1: 'JavaScript',
+    tag2: 'HTML5',
+    tag3: 'SCSS',
+    tag4: 'UI Animation',
+    tag5: 'GSAP',
+
+    year: 2022,
+    // HREF LINK
+    link: 'https://www.eileenfisher.com/',
+  },
 
   {
     key: 31,
