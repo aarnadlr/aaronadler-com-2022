@@ -10,11 +10,10 @@ const Footer = () => (
     </div>
 
     {/* <!-- CONTACT / EMAIL --> */}
-    <div id="email" className="container container--marbot80 container--pad10">
+    <div id="email" className="container">
       <a rel="noopener noreferrer" href="mailto:aaron.adler@gmail.com">
-        <p className="grow f5">
-          <i className="fa fa-envelope-o mr2" aria-hidden="true"></i>{' '}
-          aaron.adler(at)gmail(.com)
+        <p className="grow f5 underline">
+          aaron.adler [@] gmail [.com]
         </p>
       </a>
     </div>

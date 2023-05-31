@@ -9,17 +9,21 @@ import Link from 'next/link';
 
 const WelcomeBio = () => (
   <main className="main">
-    <div id="topSection" className="flex flex-column center mt6 mb5">
+    <div id="topSection" className="flex flex-column center mt6">
       <img
         id="profile-pic"
         className="grow2 center mb3"
         src="../../static/icons/profile-pic.jpg"
         alt="alt"
       />
-      <h1 className="f2c tc fw4">Aaron Adler</h1>
+      <h1 className="f2c tc fw4 mb2 mt2">Aaron Adler</h1>
+      <p className="email center mt0 mb4">
+          aaron.adler [@] gmail [.com]
+      </p>
+      
 
       {/* SOCIAL ICONS UNDER NAME */}
-      <div className="flex justify-center mb4 logo-container">
+      <div className="flex justify-center mb5 logo-container">
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -31,17 +35,7 @@ const WelcomeBio = () => (
             src="../../static/svg/github.svg"
           />
         </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://codepen.io/aaronadler/"
-        >
-          <img
-            alt="codepen"
-            className="codepen icon grow-large-2 ml3"
-            src="../../static/svg/codepen.svg"
-          />
-        </a>
+
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -53,6 +47,20 @@ const WelcomeBio = () => (
             src="../../static/icons/linkedin.png"
           />
         </a>
+
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://codepen.io/aaronadler/"
+        >
+          <img
+            alt="codepen"
+            className="codepen icon grow-large-2 ml3"
+            src="../../static/svg/codepen.svg"
+          />
+        </a>
+
+       
         {/* <a target='_blank' rel="noopener noreferrer" href="https://www.toptal.com/designers/resume/aaron-adler"><img alt='toptal' className='icon grow-large-2 ml3' src='../../static/icons/toptal.gif' /></a> */}
         <a
           target="_blank"
@@ -101,6 +109,8 @@ const WelcomeBio = () => (
         </a>
       </div>
 
+
+
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
         Hi there. &nbsp;I&#39;m a&nbsp;&nbsp;
         <span className="highlight">&nbsp;&nbsp;Front-end Software Engineer&nbsp;&nbsp;</span>
@@ -131,6 +141,7 @@ const WelcomeBio = () => (
             Tap here to view UX Design work.
           </a>
         </Link> */}
+
       </h2>
 
 
