@@ -9,13 +9,26 @@ import Link from 'next/link';
 
 const WelcomeBio = () => (
   <main className="main">
-    <div id="topSection" className="flex flex-column center mt6">
-      <img
-        id="profile-pic"
-        className="grow2 center mb3"
-        src="../../static/icons/profile-pic.jpg"
-        alt="alt"
-      />
+    <div id="topSection_dev" className="flex flex-column center mt6">
+
+      <div className="profile-wrapper relative flex flex-column center ">
+
+        <img
+          id="profile-pic"
+          className="grow2 center mb3"
+          src="../../static/icons/profile-pic.jpg"
+          alt="alt"
+          />
+
+        {/* ROLE BADGE */}
+        <Link href="/ux">
+        <div id='badge_dev'>
+          DEV
+        </div>
+        </Link>
+
+      </div>
+
       <h1 className="f2c tc fw4 mb2 mt2">Aaron Adler</h1>
       <p className="email center mt0 mb4">
           aaron.adler [@] gmail [.com]
@@ -131,7 +144,7 @@ const WelcomeBio = () => (
         <span className="highlight">&nbsp;&nbsp;CSS&nbsp;&nbsp;</span>
         &nbsp;.&nbsp;&nbsp;
 
-         {/* <Link href="/ux">
+         <Link href="/ux">
           <a
             className={'hoverLink'}
             // target={'_blank'}
@@ -140,7 +153,7 @@ const WelcomeBio = () => (
           >
             Tap here to view UX Design work.
           </a>
-        </Link> */}
+        </Link>
 
       </h2>
 
@@ -152,9 +165,7 @@ const WelcomeBio = () => (
         .main {
           margin-bottom: 80px;
         }
-        #topSection{
-          max-width: 565px;
-        }
+
         .icon {
           width: 20px;
           height: 20px;

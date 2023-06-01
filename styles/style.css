@@ -15,6 +15,9 @@
 
 @import "css/media-queries";
 
+:root{
+  --purple: #6300cd;
+}
 
 /* // $color: #2ecc71;
 // .example {
@@ -27,9 +30,9 @@ body {
   background-color: #fff;
   color: #011b69;
   transition: background-color 0.3s ease;
-
+  
   /* //.card .textContainer{
-  //} */
+    //} */
 }
 
 body .textContainer {
@@ -55,9 +58,33 @@ body .fa-suitcase:before{
 }
 
 
+#topSection_dev{
+  max-width: 565px;
+  color: #011b69;  
+}
+#topSection_ux{
+  max-width: 560px;
+  /* color: rgb(135, 0, 219);   */
+}
 
-a.hoverLink {
+#topSection_dev .paragraph .highlight {
+  background: #002596;
+  color: white;
+}
+#topSection_ux .paragraph .highlight {
+  background: var(--purple);
+  color: white;
+}
+
+
+
+
+#topSection_dev a.hoverLink {
   color: #0039d4;
+  font-weight: 600;
+}
+#topSection_ux a.hoverLink {
+  color: var(--purple);
   font-weight: 600;
 }
 a.hoverLink:hover {
@@ -214,4 +241,36 @@ input[type="checkbox"].dmcheck + label {
   background: #fff;
   opacity: 0.9;
   background-color: #f6f6f6;
+}
+
+#badge_dev{
+  display: flex;
+  padding: 3px 4px;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  background-color: #0136d5;
+  /* background-color: rgb(153, 0, 219); */
+  color: white;
+  border-radius: 3px;
+  margin: 0 auto;
+  position: absolute;
+  top: 33%;
+  right: -20px;
+  cursor: pointer;
+}
+#badge_design{
+  display: flex;
+  padding: 3px 4px;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 3px;
+  margin: 0 auto;
+  position: absolute;
+  top: 33%;
+  right: -13px;
+  cursor: pointer;
 }

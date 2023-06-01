@@ -3,17 +3,31 @@ import Link from 'next/link';
 
 const WelcomeBioUX = () => (
   <main className="">
-    <div id="topSection" className="flex flex-column center mt6 mb5">
+    <div id="topSection_ux" className="flex flex-column center mt6 mb5">
+    <div className="profile-wrapper relative flex flex-column center ">
+
       <img
         id="profile-pic"
         className="grow2 center mb3"
         src="../../static/icons/profile-pic.jpg"
         alt="alt"
-      />
-      <h1 className="f2c tc fw4">Aaron Adler</h1>
+        />
 
+      {/* ROLE BADGE */}
+      <Link href="/">
+        <div id='badge_design'>
+          UX
+        </div>
+      </Link>
+      
+    </div>
+
+      <h1 className="f2c tc fw4 mb2 mt2">Aaron Adler</h1>
+      <p className="email center mt0 mb4">
+          aaron.adler [@] gmail [.com]
+      </p>
       {/* SOCIAL ICONS UNDER NAME */}
-      <div className="flex justify-center mb4">
+      <div className="flex justify-center mb5">
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -131,9 +145,6 @@ const WelcomeBioUX = () => (
 
     <style jsx>
       {`
-        #topSection{
-          max-width: 560px;
-        }
         .icon {
           width: 20px;
           height: 20px;
