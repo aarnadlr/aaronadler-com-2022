@@ -46,7 +46,8 @@ const projectsUX = [
         // tag5: 'Desktop',
         year: 2020,
         // link: 'https://www.anthem.com/',
-        link: 'https://www.sketch.com/s/c50509ea-0216-4ef6-9443-150a621ebbe2/p/22726FCA-9800-4619-8255-D7BD81AE00D8/canvas',
+        // link: 'https://www.sketch.com/s/c50509ea-0216-4ef6-9443-150a621ebbe2/p/22726FCA-9800-4619-8255-D7BD81AE00D8/canvas',
+        link: 'https://www.figma.com/file/LN555rCatQOnAT9Wo6GGqN/Anthem-AI---Present?type=design&node-id=2%3A2224&t=uNQ5SXW6F4qvNYZr-1',
         dim: false,
     },
 
