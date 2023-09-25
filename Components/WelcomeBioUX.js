@@ -108,11 +108,11 @@ const WelcomeBioUX = () => (
       </div>
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
-        Hi there. &nbsp;I'm a&nbsp;
+        Hi there. &nbsp;I&apos;m a&nbsp;
         {/*<span className="highlight">&nbsp;Front-end Developer&nbsp;</span>*/}
         {/*&nbsp;and*/}
         <span className="highlight">&nbsp;UX Designer&nbsp;</span>
-        &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, LinkedIn, IBM, Xandr,
+        &nbsp;in NYC.&nbsp; I&apos;ve worked on projects for Facebook, LinkedIn, IBM, Xandr,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
         Art Directors Club, and the New York Times.
 
@@ -129,15 +129,9 @@ const WelcomeBioUX = () => (
 
         {/*Below, please find a selection of{' '}*/}
         {/*<span className="highlight">&nbsp;UX Design&nbsp;</span> projects.{' '}*/}
-        <Link href="/">
-          <a
-            // target={'_blank'}
-            className={'hoverLink'}
-            // style={{ color: 'rgb(13, 2, 165)', fontWeight: 600 }}
-            // style={{ color: 'rgb(14, 0, 202)' }}
-          >
+        <Link href="/" className={'hoverLink'}>
+          
             Tap here to view software development work
-          </a>
         </Link>
         .
       </h2>

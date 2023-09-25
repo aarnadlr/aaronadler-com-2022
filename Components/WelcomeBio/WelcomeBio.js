@@ -144,15 +144,10 @@ const WelcomeBio = () => (
         <span className="highlight">&nbsp;&nbsp;CSS&nbsp;&nbsp;</span>
         &nbsp;.&nbsp;&nbsp;
 
-         <Link href="/ux">
-          <a
-            className={'hoverLink'}
-            // target={'_blank'}
-            // style={{ color: 'rgb(13, 2, 165)' }}
-            // style={{ color: 'rgb(14, 0, 202)' }}
-          >
+         <Link href="/ux" className={'hoverLink'}>
+          
             Tap here to view UX Design work.
-          </a>
+          
         </Link>
 
       </h2>
