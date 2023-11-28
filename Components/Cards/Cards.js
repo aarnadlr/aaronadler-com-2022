@@ -1,7 +1,10 @@
 import React from 'react';
 // import Tilt from "react-tilt";
 import projects from '../../projects';
-import CodeWindow from '../CodeWindow/CodeWindow';
+// import CodeWindow from '../CodeWindow/CodeWindow';
+import dynamic from 'next/dynamic';
+const CodeWindow = dynamic(() => import('../CodeWindow/CodeWindow'), { ssr: false });
+
 // import './Cards.css';
 // import '../../src/css/entry.css';
 import { v1 as uuidv1 } from 'uuid';
@@ -31,7 +34,7 @@ const Cards = () => {
                 <CodeWindow
                   name={''}
                   bcgColor={project.bcgColor}
-                  animData={project.animData}
+                  animData={project?.animData}
                   speed={project.speed}
                 />
               )}
