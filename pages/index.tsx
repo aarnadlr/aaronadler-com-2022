@@ -20,7 +20,7 @@ export default function Index() {
   // const { query } = useRouter();
 
   // useEffect(()=>{
-    
+
   //   fetch(`/api/routeOne?${'key'}=${'value'}`, {
   //     method: 'post',
   //     headers: {
@@ -38,7 +38,8 @@ export default function Index() {
     <div>
       {console.log('aaronadler.com')}
       <Head>
-        <title>Aaron Adler | Frontend Engineer</title>
+        <title>Aaron Adler | Software Engineer</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <TopNav />

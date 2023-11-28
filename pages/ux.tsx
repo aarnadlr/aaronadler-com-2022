@@ -17,7 +17,7 @@ import Footer from '../Components/Footer';
 const UxPage = () => (
   <div>
     <Head>
-      <title>Aaron Adler | UX Engineer</title>
+      <title>Aaron Adler | UX Designer</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       {/* <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet"></link> */}
 
