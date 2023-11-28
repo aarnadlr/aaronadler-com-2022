@@ -125,11 +125,11 @@ const WelcomeBio = () => (
 
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
-        Hi there. &nbsp;I&#39;m a&nbsp;&nbsp;
-        <span className="highlight">&nbsp;&nbsp;Front-end Software Engineer&nbsp;&nbsp;</span>
+        Hi there. &nbsp;I&#39;m a&nbsp;
+        <span className="highlight">&nbsp;&nbsp;Software Engineer&nbsp;&nbsp;</span>
         {/*&nbsp;and&nbsp;*/}
         {/*<span className="highlight">&nbsp;UX Engineer&nbsp;</span>*/}
-        &nbsp;&nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, LinkedIn, IBM and others. &nbsp;My work has been recognized by Cannes, AICP, the
+        &nbsp;in NYC.&nbsp; I've worked on projects for Facebook, LinkedIn, IBM and others. &nbsp;My work has been recognized by Cannes, AICP, the
         Art Directors Club, and the New York Times. &nbsp;My focus is on
         {' '}
         <span className="highlight">&nbsp;&nbsp;TypeScript / JavaScript&nbsp;&nbsp;</span>
@@ -144,11 +144,9 @@ const WelcomeBio = () => (
         <span className="highlight">&nbsp;&nbsp;CSS&nbsp;&nbsp;</span>
         &nbsp;.&nbsp;&nbsp;
 
-         <Link href="/ux" className={'hoverLink'}>
-          
+        {/* <Link href="/ux" className={'hoverLink'}>
             Tap here to view UX Design work.
-          
-        </Link>
+        </Link> */}
 
       </h2>
 

@@ -8,11 +8,11 @@ import Cards from '../Components/Cards';
 import CoreTools from '../Components/CoreTools';
 import Footer from '../Components/Footer';
 // import MediumCard from '../Components/MediumCard';
-import HackerrankScore from '../Components/hackerrank-score';
+// import HackerrankScore from '../Components/hackerrank-score';
 // import Link from 'next/link';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 // import Cookies from 'js-cookie';
-import {useRouter} from "next/router";
+// import {useRouter} from "next/router";
 
 
 export default function Index() {

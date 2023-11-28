@@ -129,11 +129,11 @@ const WelcomeBioUX = () => (
 
         {/*Below, please find a selection of{' '}*/}
         {/*<span className="highlight">&nbsp;UX Design&nbsp;</span> projects.{' '}*/}
-        <Link href="/" className={'hoverLink'}>
+        {/* <Link href="/" className={'hoverLink'}>
           
             Tap here to view software development work
-        </Link>
-        .
+        </Link> */}
+        
       </h2>
     </div>
 

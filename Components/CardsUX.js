@@ -1,7 +1,10 @@
 import React from 'react';
 // import Tilt from "react-tilt";
 import projects from '../projectsUX';
-import CodeWindow from './CodeWindow/CodeWindow';
+// import CodeWindow from './CodeWindow/CodeWindow';
+import dynamic from 'next/dynamic';
+const CodeWindow = dynamic(() => import('../Components/CodeWindow/CodeWindow'), { ssr: false });
+
 // import './Cards.css';
 // import '../../src/css/entry.css';
 import { v1 as uuidv1 } from 'uuid';

@@ -45,7 +45,8 @@ const projects = [
       tag4: 'Prototype',
       // tag5: 'HTML',
       year: 2022,
-      link: 'https://www.linkedin.com/',
+      // link: 'https://www.linkedin.com/',
+      link: 'https://linkedin-stickers.vercel.app/',
       dim: false,
   },
 
