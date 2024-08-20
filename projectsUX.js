@@ -17,7 +17,7 @@ const projectsUX = [
 
         tag1: 'Figma',
         tag4: 'Prototype',
-        tag2: 'UX',
+        tag2: 'UI',
         tag3: 'JavaScript',
         // tag5: 'Desktop',
         year: 2022,
@@ -34,14 +34,14 @@ const projectsUX = [
         title: 'Anthem Healthcare',
 
         desc:
-            'Developed a telemedicine app user experience. Including both a Patient-side and Physician-side UX for managing appointments, prescriptions and HIPAA-compliant health records.',
+            'Developed a telemedicine app user experience. Including both a Patient-side and Physician-side UI for managing appointments, prescriptions and HIPAA-compliant health records.',
 
         // role1: 'UX wireframes and design with Sketch',
         // role2: 'Front-end JavaScript code',
 
         tag1: 'Sketch',
         tag2: 'Telemedicine',
-        tag3: 'UX',
+        tag3: 'UI',
         tag4: 'Healthcare',
         // tag5: 'Desktop',
         year: 2020,
@@ -59,7 +59,7 @@ const projectsUX = [
         title: 'IBM Partners',
     
         desc:
-          "UX design for IBM Partners, IBM's business services portal. Site wireframes and design. Implemented IBM's Duo design system: Type, palettes, grids. Click to view the project in Figma.",
+          "UI design for IBM Partners, IBM's business services portal. Site wireframes and design. Implemented IBM's Duo design system: Type, palettes, grids. Click to view the project in Figma.",
     
     
     
@@ -99,7 +99,7 @@ const projectsUX = [
 
         tag1: 'Figma',
         tag4: 'Sketch',
-        tag2: 'UX',
+        tag2: 'UI',
         tag3: 'Finance',
         // tag5: 'Desktop',
         year: 2018,
@@ -115,13 +115,13 @@ const projectsUX = [
         title: 'Ernst & Young',
 
         desc:
-            'UX desktop app design for a SaaS File Import Wizard user flow. Click to view the project in Figma.',
+            'UI desktop app design for a SaaS File Import Wizard user flow. Click to view the project in Figma.',
 
         // role1: 'UX wireframes and design with Sketch',
         // role2: 'Front-end JavaScript code',
 
         tag1: 'Figma',
-        tag2: 'UX',
+        tag2: 'UI',
         tag3: 'Dashboard',
         tag4: 'SaaS',
         // tag5: 'Desktop',
@@ -166,13 +166,13 @@ const projectsUX = [
         title: 'Open Igloo',
 
         desc:
-            'UX design and functional Figma prototype for Open Igloo, real estate market app. Click to view the project in Figma.',
+            'UI design and functional Figma prototype for Open Igloo, real estate market app. Click to view the project in Figma.',
 
         // role1: 'UX wireframes and design with Sketch',
         // role2: 'Front-end JavaScript code',
 
         tag1: 'Figma',
-        tag2: 'UX',
+        tag2: 'UI',
         tag3: 'Mobile',
         tag4: 'Prototype',
         year: 2020,
@@ -217,13 +217,13 @@ const projectsUX = [
         title: 'Supercard',
 
         desc:
-            'UX mobile app design for Supercard, digital greeting cards. Click to view the project in Figma.',
+            'UI mobile app design for Supercard, digital greeting cards. Click to view the project in Figma.',
 
         // role1: 'UX wireframes and design with Sketch',
         // role2: 'Front-end JavaScript code',
 
         tag1: 'Figma',
-        tag2: 'UX',
+        tag2: 'UI',
         tag3: 'Mobile',
         tag4: 'Web App',
         year: 2020,
@@ -264,13 +264,13 @@ const projectsUX = [
         title: 'Artemis Capital Advisors',
 
         desc:
-            'UX mobile and desktop app design for Artemis Capital Advisors, financial firm. Click to view the project in Figma.',
+            'UI mobile and desktop app design for Artemis Capital Advisors, financial firm. Click to view the project in Figma.',
 
         // role1: 'UX wireframes and design with Sketch',
         // role2: 'Front-end JavaScript code',
 
         tag1: 'Figma',
-        tag2: 'UX',
+        tag2: 'UI',
         tag3: 'Mobile',
         tag4: 'Web App',
         // tag5: 'Finance',
@@ -352,7 +352,7 @@ const projectsUX = [
     {
         key: '5',
         image: '../static/Blockparty-800x400-3.jpg',
-        title: 'Blockparty - Blockchain app UX',
+        title: 'Blockparty - Blockchain app UI',
         desc:
             'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
 
