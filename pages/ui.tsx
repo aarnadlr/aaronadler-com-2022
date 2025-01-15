@@ -2,7 +2,7 @@
 import React from 'react';
 import Head from 'next/head';
 import TopNav from '../Components/TopNav';
-import WelcomeBioUX from '../Components/WelcomeBioUX';
+import WelcomeBioUI from '../Components/WelcomeBioUI';
 import CardsUX from '../Components/CardsUX';
 import CoreTools from '../Components/CoreTools';
 import Footer from '../Components/Footer';
@@ -17,7 +17,7 @@ import Footer from '../Components/Footer';
 const UxPage = () => (
   <div>
     <Head>
-      <title>Aaron Adler | UX Designer</title>
+      <title>Aaron Adler | UI Designer</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       {/* <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet"></link> */}
 
@@ -26,7 +26,7 @@ const UxPage = () => (
 
     <TopNav />
 
-    <WelcomeBioUX />
+    <WelcomeBioUI />
 
     <CardsUX />
 

@@ -16,7 +16,7 @@ const WelcomeBioUX = () => (
       {/* ROLE BADGE */}
       <Link href="/">
         <div id='badge_design'>
-          UX
+          UI
         </div>
       </Link>
       
@@ -111,7 +111,7 @@ const WelcomeBioUX = () => (
         Hi there. &nbsp;I&apos;m a&nbsp;
         {/*<span className="highlight">&nbsp;Front-end Developer&nbsp;</span>*/}
         {/*&nbsp;and*/}
-        <span className="highlight">&nbsp;UX Designer&nbsp;</span>
+        <span className="highlight">&nbsp;UI Designer&nbsp;</span>
         &nbsp;in NYC.&nbsp; I&apos;ve worked on projects for Peacock, LinkedIn, IBM, MailChimp,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
         Art Directors Club, and the New York Times.
